@@ -20,12 +20,11 @@ import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "../firebase";
 import { getUser } from "../redux/api/UserAPI";
 import { userExist, userNotExist } from "../redux/reducers/userReducers";
-import axios from "axios";
 
 
 
 const ProductDetails = () => {
-    // https://mobilecommerce-backend.onrender.com
+    // https://backend-mobimarketplace-fyp.onrender.com
 
     const dispatch = useDispatch()
     const { user } = useSelector((state: { userReducer: UserReducerInitialState }) => state.userReducer)
@@ -41,7 +40,7 @@ const ProductDetails = () => {
                 console.log("Not Logged in");
             }
         })
-    }, [])
+    }, [dispatch])
 
 
     const [comment, setComment] = useState("");

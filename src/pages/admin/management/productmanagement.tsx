@@ -5,11 +5,8 @@ import { UserReducerInitialState } from "../../../types/reducer-types";
 import { useSelector } from "react-redux";
 import { Navigate, useNavigate, useParams } from "react-router-dom";
 import { useDeleteProductMutation, useProductDetailsQuery, useUpdateProductMutation } from "../../../redux/api/ProductAPI";
-import { server } from "../../../redux/store";
 import { Skeleton } from "../../../components/loader";
 import { responseToast } from "../../../utils/features";
-
-
 
 const Productmanagement = () => {
   const { user } = useSelector((state: { userReducer: UserReducerInitialState }) => state.userReducer)
@@ -17,8 +14,6 @@ const Productmanagement = () => {
   const { id } = useParams()
   const navigate = useNavigate()
   const { data, isLoading, isError } = useProductDetailsQuery(id!)
-
-
 
   const { category, images, price, stock, title } = data?.product || {
     title: "",
@@ -39,7 +34,6 @@ const Productmanagement = () => {
   const [categoryUpdate, setCategoryUpdate] = useState<string>(category);
   const [ImageUpdate, setImageUpdate] = useState<string>("");
   const [ImageFile, setImageFile] = useState<File>();
-
 
   const [updateProduct] = useUpdateProductMutation()
   const [deleteProduct] = useDeleteProductMutation()
@@ -80,7 +74,6 @@ const Productmanagement = () => {
     responseToast(res, navigate, "/admin/product")
   }
 
-
   useEffect(() => {
     if (data) {
       setPriceUpdate(data.product.price);
@@ -92,7 +85,6 @@ const Productmanagement = () => {
       setTitleUpdate(data.product.title);
     }
   }, [data])
-
 
   if (isError) return <Navigate to={"/404"} />
 

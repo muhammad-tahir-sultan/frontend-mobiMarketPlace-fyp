@@ -26,7 +26,10 @@ export const productAPI = createApi({
                 body: formData
             }), invalidatesTags: ["product"]
         }),
-        productDetails: builder.query<ProductResponse, string>({ query: (id) => id, providesTags: (result, error, id) => [{ type: "product", id }] }),
+        productDetails: builder.query<ProductResponse, string>({ 
+            query: (id) => id, 
+            providesTags: (_, __, id) => [{ type: "product", id }] 
+        }),
         updateProduct: builder.mutation<MessageResponse, UpdateProductRequest>({
             query: ({ formData, userId, productId }) => ({
                 url: `${productId}?id=${userId}`,
@@ -46,7 +49,7 @@ export const productAPI = createApi({
                 method: "PUT",
                 body: reviewData
             }),
-            invalidatesTags: (result, error, { id }) => [{ type: "product", id }]
+            invalidatesTags: (_, __, { id }) => [{ type: "product", id }]
         }),
     })
 

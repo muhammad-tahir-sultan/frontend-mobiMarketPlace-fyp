@@ -5,7 +5,6 @@ import { Column } from "react-table";
 import AdminSidebar from "../../components/admin/AdminSidebar";
 import TableHOC from "../../components/admin/TableHOC";
 import { useAllProductsQuery } from "../../redux/api/ProductAPI";
-import { server } from "../../redux/store";
 import toast from "react-hot-toast";
 import { CustomEror } from "../../types/api-types";
 import { useSelector } from "react-redux";
@@ -43,12 +42,9 @@ const columns: Column<DataType>[] = [
   },
 ];
 
-
-
 const Products = () => {
   const { user } = useSelector((state: { userReducer: UserReducerInitialState }) => state.userReducer)
   const {isLoading, error, data } = useAllProductsQuery(user?._id!)
-
 
   if (error) {
     const err = error as CustomEror;
@@ -69,7 +65,6 @@ const Products = () => {
       action: <Link to={`/admin/product/${product._id}`}>Manage</Link> 
     })));
   }, [data])
-
 
   const Table = TableHOC<DataType>(
     columns,
