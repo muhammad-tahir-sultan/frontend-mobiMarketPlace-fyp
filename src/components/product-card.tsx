@@ -1,5 +1,4 @@
 import { FaPlus } from "react-icons/fa"
-import { server } from "../redux/store"
 import { CartItem } from "../types/types"
 import { Link } from "react-router-dom"
 
@@ -14,21 +13,20 @@ type ProductProps = {
 }
 
 const ProductCard = ({ image, productId, stock, price, title, handler }: ProductProps) => {
-
-
-
   return (
     <Link className="product-card" to={`/product/${productId}`}>
-      <img src={`${server}/${image}`} height={100} width={100} alt={title} />
+      <img src={image} height={100} width={100} alt={title} />
       <p>{title}</p>
       <span>${price}</span>
       <div>
-        <button onClick={() => handler({ productId, image, stock, price, title, quantity: 1 })}>
+        <button onClick={(e) => {
+          e.preventDefault();
+          handler({ productId, image, stock, price, title, quantity: 1 })
+        }}>
           <FaPlus />
         </button>
       </div>
-
-    </Link >
+    </Link>
   )
 }
 

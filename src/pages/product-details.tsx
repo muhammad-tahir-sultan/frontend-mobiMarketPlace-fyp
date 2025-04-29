@@ -53,15 +53,19 @@ const ProductDetails = () => {
 
 
 
-    const { category, image, price, stock, title, reviews } = data?.product || {
+    const { category, images, price, stock, title, reviews } = data?.product || {
         title: "",
-        image: "",
+        images: [],
         price: 0,
         stock: 0,
         category: "",
         reviews: [],
     }
 
+    // Get the first image URL or use a placeholder
+    const imageUrl = images && images.length > 0 
+        ? images[0].url 
+        : "https://via.placeholder.com/400";
 
     const { cartItems } = useSelector((state: { cartReducer: CartReducerInitialState }) => state.cartReducer)
 
@@ -109,7 +113,11 @@ const ProductDetails = () => {
                         <section className="text-gray-600 body-font overflow-hidden">
                             <div className="container px-5 py-24 mx-auto">
                                 <div className="lg:w-4/5 mx-auto flex flex-wrap">
-                                    <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src={`${server}/${image}`} />
+                                    <img 
+                                        alt="ecommerce" 
+                                        className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" 
+                                        src={imageUrl} 
+                                    />
                                     <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
                                         <h2 className="text-sm title-font text-gray-500 tracking-widest">{category}</h2>
                                         <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">{title}</h1>
@@ -141,8 +149,19 @@ const ProductDetails = () => {
                                         </div>
                                         <div className="flex">
                                             <span className="title-font font-medium text-2xl text-gray-900">${price}</span>
-                                            <button className="flex ml-auto text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-blue-700 rounded" onClick={() => addToCartHandler({ productId: id!, image, stock, price, title, quantity: 1 })}>Add to Cart</button>
-
+                                            <button 
+                                                className="flex ml-auto text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-blue-700 rounded" 
+                                                onClick={() => addToCartHandler({ 
+                                                    productId: id!, 
+                                                    image: imageUrl, 
+                                                    stock, 
+                                                    price, 
+                                                    title, 
+                                                    quantity: 1 
+                                                })}
+                                            >
+                                                Add to Cart
+                                            </button>
                                         </div>
                                     </div>
                                 </div>

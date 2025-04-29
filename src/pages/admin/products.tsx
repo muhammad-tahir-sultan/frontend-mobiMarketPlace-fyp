@@ -58,7 +58,16 @@ const Products = () => {
   const [rows, setRows] = useState<DataType[]>([]);
 
   useEffect(() => {
-    if (data) setRows(data.products.map((product) => ({ image: <img src={`${server}/${product.image}`} />, title: product.title, price: product.price, stock: product.stock, action: <Link to={`/admin/product/${product._id}`}>Manage</Link> })));
+    if (data) setRows(data.products.map((product) => ({ 
+      image: <img src={product.images && product.images.length > 0 
+        ? product.images[0].url 
+        : "https://via.placeholder.com/50"} 
+      />, 
+      title: product.title, 
+      price: product.price, 
+      stock: product.stock, 
+      action: <Link to={`/admin/product/${product._id}`}>Manage</Link> 
+    })));
   }, [data])
 
 

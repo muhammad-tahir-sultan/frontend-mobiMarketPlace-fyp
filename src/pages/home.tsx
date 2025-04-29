@@ -56,9 +56,10 @@ const Home = () => {
                 stock={product.stock}
                 // quantity={product.quantity}
                 price={product.price}
-                image={product.image}
+                image={product.images && product.images.length > 0 
+                  ? product.images[0].url 
+                  : "https://via.placeholder.com/200"}
                 handler={addToCartHandler}
-                
               />
             ))
         }

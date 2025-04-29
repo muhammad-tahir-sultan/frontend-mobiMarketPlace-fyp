@@ -94,7 +94,19 @@ const Search = () => {
         <input type="text" placeholder="Search By Name..." value={search} onChange={(e) => setSearch(e.target.value)} />
         <div className="search-product-list">
           {
-            searchLoading ? <Skeleton /> : searchedData?.products.map(product => <ProductCard productId={product._id} title={product.title} stock={product.stock} price={product.price} image={product.image} handler={addToCartHandler} />)
+            searchLoading ? <Skeleton /> : searchedData?.products.map(product => (
+              <ProductCard 
+                key={product._id}
+                productId={product._id} 
+                title={product.title} 
+                stock={product.stock} 
+                price={product.price} 
+                image={product.images && product.images.length > 0 
+                  ? product.images[0].url 
+                  : "https://via.placeholder.com/200"} 
+                handler={addToCartHandler} 
+              />
+            ))
           }
         </div>
 

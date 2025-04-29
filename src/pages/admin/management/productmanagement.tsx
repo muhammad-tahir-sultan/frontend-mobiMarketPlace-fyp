@@ -20,14 +20,18 @@ const Productmanagement = () => {
 
 
 
-  const { category, image, price, stock, title } = data?.product || {
+  const { category, images, price, stock, title } = data?.product || {
     title: "",
-    image: "",
+    images: [],
     price: 0,
     stock: 0,
     category: "",
   }
 
+  // Get the first image URL or use a placeholder
+  const imageUrl = images && images.length > 0 
+      ? images[0].url 
+      : "https://via.placeholder.com/400";
 
   const [priceUpdate, setPriceUpdate] = useState<number>(price);
   const [stockUpdate, setStockUpdate] = useState<number>(stock);
@@ -81,10 +85,11 @@ const Productmanagement = () => {
     if (data) {
       setPriceUpdate(data.product.price);
       setStockUpdate(data.product.stock);
-      setImageUpdate(data.product.image);
+      setImageUpdate(data.product.images && data.product.images.length > 0 
+        ? data.product.images[0].url 
+        : "");
       setCategoryUpdate(data.product.category);
       setTitleUpdate(data.product.title);
-
     }
   }, [data])
 
@@ -99,7 +104,7 @@ const Productmanagement = () => {
           isLoading ? <Skeleton length={20} /> : <>
             <section>
               <strong>ID - {data?.product._id}</strong>
-              <img src={`${server}/${image}`} alt="Product" />
+              <img src={imageUrl} alt="Product" />
               <p>{title}</p>
               {stock > 0 ? (
                 <span className="green">{stock} Available</span>

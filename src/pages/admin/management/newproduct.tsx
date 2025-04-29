@@ -15,6 +15,7 @@ const NewProduct = () => {
   const [stock, setStock] = useState<number>(1);
   const [imagePrev, setImagePrev] = useState<string>("");
   const [image, setImage] = useState<File>();
+  const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
 
   const navigate = useNavigate()
 
@@ -40,22 +41,27 @@ const NewProduct = () => {
   const submitHandler = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!title || !category || !price || stock < 0 || !image) return toast.error("Please Fill All Fields");
+    
     try {
+      setIsSubmitting(true);
       const formData = new FormData();
       formData.append("title", title);
       formData.append("category", category);
       formData.append("price", price.toString());
       formData.append("stock", stock.toString());
       formData.append("image", image);
+      
       const res = await newProduct({ id: user?._id!, formData });
-
-      responseToast(res, navigate, "/admin/product")
-
+      
+      responseToast(res, navigate, "/admin/product");
     } catch (error) {
       console.error(error);
       toast.error("Something Went Wrong!");
+    } finally {
+      setIsSubmitting(false);
     }
   }
+  
   return (
     <div className="admin-container">
       <AdminSidebar />
@@ -112,7 +118,13 @@ const NewProduct = () => {
             </div>
 
             {imagePrev && <img src={imagePrev} alt="New Image" />}
-            <button type="submit" style={{ margin: "5px 10px 80px 10px" }}>Create</button>
+            <button 
+              type="submit" 
+              style={{ margin: "5px 10px 80px 10px" }}
+              disabled={isSubmitting}
+            >
+              {isSubmitting ? "Creating..." : "Create"}
+            </button>
           </form>
         </article>
       </main>
