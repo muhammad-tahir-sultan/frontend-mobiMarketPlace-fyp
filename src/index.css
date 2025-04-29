@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.submitDialog {
+  display: flex;
+  flex-direction: column;
+}
+
+.submitDialogTextArea {
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  margin: 1vmax 0;
+  outline: none;
+  padding: 1rem;
+  font: 300 1rem "Roboto";
+}
+
+
+.aboutSection {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 4fr 4fr;
+}
+
+.aboutSectionGradient {
+  background-image: linear-gradient(to bottom right,
+      rgb(78, 81, 255),
+      rgb(74, 137, 189));
+}
+
+.aboutSectionContainer {
+  margin-top: 4rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: rgb(255, 255, 255);
+  width: 80vw;
+  height: 95vh;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.192);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-main {
+  font-size: 3rem !important;
+  color: tomato;
+}
+
+.heading-about {
+  font: 400 3vmax "Roboto";
+  color: tomato;
+  margin: auto;
+  text-align: center !important;
+}
+
+.aboutSectionContainer>div {
+  display: flex;
+  width: 100%;
+}
+
+.aboutSectionContainer>div>div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vmax;
+  box-sizing: border-box;
+}
+
+.aboutSectionContainer>div>div>p {
+  color: black !important;
+  font-weight: bold !important;
+  font-size: 1rem !important;
+  font: 100 1vmax "Roboto";
+}
+
+.aboutSectionContainer>div>div>button {
+  margin: 1vmax 0;
+}
+
+.aboutSectionContainer>div>div>span {
+  font: 100 1vmax "Roboto";
+  color: rgba(0, 0, 0, 0.616);
+  text-align: center;
+  width: 80%;
+}
+
+.aboutSectionContainer2 {
+  display: flex;
+  border-left: 1px solid rgba(0, 0, 0, 0.116);
+}
+
+
+
+.aboutSectionContainer2>h2 {
+  font: 100 2vmax "Roboto";
+  margin: 2vmax;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+
+}
+
+.aboutSectionContainer2>a>svg {
+  font-size: 15rem;
+}
+
+span {
+  color: black !important;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+
+.linkedInSvgIcon {
+  font-size: 4rem !important;
+}
+
+.instagramSvgIcon {
+  color: rgb(214, 96, 29);
+  font-size: 4rem !important;
+}
+
+@media screen and (max-width: 600px) {
+  .aboutSectionContainer>div {
+    display: block;
+  }
+
+  .aboutSectionContainer>h1 {
+    font: 400 5vmax "Roboto";
+    margin: 3vmax;
+  }
+
+  .aboutSectionContainer>div>div>p {
+    font: 100 2vmax "Roboto";
+  }
+
+  .aboutSectionContainer>div>div>span {
+    font: 100 1.4vmax "Roboto";
+    width: 70%;
+  }
+
+  .aboutSectionContainer2 {
+    border-left: none;
+  }
+
+  .aboutSectionContainer2>h2 {
+    font: 100 3vmax "Roboto";
+    margin: 2vmax;
+  }
+
+  .aboutSectionContainer2>a>svg {
+    font-size: 6vmax;
+    margin: 1vmax;
+  }
+}
