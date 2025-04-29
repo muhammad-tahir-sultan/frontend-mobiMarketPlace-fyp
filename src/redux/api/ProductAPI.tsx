@@ -26,7 +26,7 @@ export const productAPI = createApi({
                 body: formData
             }), invalidatesTags: ["product"]
         }),
-        productDetails: builder.query<ProductResponse, string>({ query: (id) => id, providesTags: ["product"] }),
+        productDetails: builder.query<ProductResponse, string>({ query: (id) => id, providesTags: (result, error, id) => [{ type: "product", id }] }),
         updateProduct: builder.mutation<MessageResponse, UpdateProductRequest>({
             query: ({ formData, userId, productId }) => ({
                 url: `${productId}?id=${userId}`,
@@ -40,9 +40,17 @@ export const productAPI = createApi({
                 method: "DELETE",
             }), invalidatesTags: ["product"]
         }),
+        submitReview: builder.mutation<MessageResponse, { id: string; rating: number; comment: string; user: string }>({
+            query: (reviewData) => ({
+                url: "review",
+                method: "PUT",
+                body: reviewData
+            }),
+            invalidatesTags: (result, error, { id }) => [{ type: "product", id }]
+        }),
     })
 
 })
 
 
-export const { useLatestProductsQuery, useAllProductsQuery, useAllCategoriesQuery, useSearchProductsQuery, useNewProductMutation, useProductDetailsQuery, useUpdateProductMutation, useDeleteProductMutation } = productAPI
+export const { useLatestProductsQuery, useAllProductsQuery, useAllCategoriesQuery, useSearchProductsQuery, useNewProductMutation, useProductDetailsQuery, useUpdateProductMutation, useDeleteProductMutation, useSubmitReviewMutation } = productAPI

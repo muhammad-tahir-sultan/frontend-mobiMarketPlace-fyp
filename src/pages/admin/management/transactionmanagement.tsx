@@ -86,7 +86,7 @@ const TransactionManagement = () => {
                 <ProductCard
                   key={i._id}
                   title={i.title}
-                  image={`${server}/${i.image}`}
+                  image={i.image}
                   productId={i.productId}
                   _id={i._id}
                   quantity={i.quantity}
@@ -144,14 +144,21 @@ const ProductCard = ({
   price,
   quantity,
   productId,
-}: OrderItem) => (
-  <div className="transaction-product-card">
-    <img src={`${image}`} alt={title} />
-    <Link to={`/product/${productId}`}>{title}</Link>
-    <span>
-      ${price} X {quantity} = ${price * quantity}
-    </span>
-  </div>
-);
+}: OrderItem) => {
+  // Determine if the image URL is a Cloudinary URL or a local path
+  const imageUrl = image.startsWith('http') 
+    ? image 
+    : `${server}/${image}`
+    
+  return (
+    <div className="transaction-product-card">
+      <img src={imageUrl} alt={title} />
+      <Link to={`/product/${productId}`}>{title}</Link>
+      <span>
+        ${price} X {quantity} = ${price * quantity}
+      </span>
+    </div>
+  )
+}
 
 export default TransactionManagement;

@@ -9,7 +9,9 @@ export type User = {
 }
 
 export type Review = {
+    _id?: string;
     comment: string;
+    rating: number;
     user: {
         _id: string;
         name: string;
@@ -29,7 +31,9 @@ export type Product = {
     }[],
     _id: string,
     quantity: number,
-    reviews?: []
+    ratings: number,
+    numOfReviews: number,
+    reviews?: Review[]
 }
 
 export type shippingInfo = {

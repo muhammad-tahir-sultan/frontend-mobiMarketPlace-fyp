@@ -1,6 +1,5 @@
 import { FaTrash } from "react-icons/fa"
 import { Link } from "react-router-dom"
-import { server } from "../redux/store"
 import { CartItem } from "../types/types"
 
 type CartItemProps = {
@@ -10,13 +9,17 @@ type CartItemProps = {
     removeHandler: (id: string) => void,
 }
 
-
-
 const CartItemCard = ({ cartItem, decrementHandler, removeHandler, incrementHandler }: CartItemProps) => {
     const { image, title, productId, price, quantity } = cartItem
+    
+    // Determine if the image URL is a Cloudinary URL or a local path
+    const imageUrl = image.startsWith('http') 
+        ? image 
+        : `http://localhost:5000/${image}`
+    
     return (
         <div className="cart-item">
-            <img src={`${server}/${image}`} alt={title} />
+            <img src={imageUrl} alt={title} />
             <article>
                 <Link to={`/product/${productId}`}>{title}</Link>
                 <span>${price} </span>
