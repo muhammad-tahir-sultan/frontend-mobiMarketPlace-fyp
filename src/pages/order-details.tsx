@@ -1,15 +1,12 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { useSelector } from 'react-redux';
 import { useOrderDetailsQuery } from '../redux/api/OrderAPI';
-import { UserReducerInitialState } from '../types/reducer-types';
 import { Skeleton } from '../components/loader';
 import toast from 'react-hot-toast';
 import { FaShoppingBag, FaTruck, FaCalendarAlt, FaMapMarkerAlt } from 'react-icons/fa';
 
 const OrderDetails = () => {
   const { id } = useParams<{ id: string }>();
-  const { user } = useSelector((state: { userReducer: UserReducerInitialState }) => state.userReducer);
   const { data, isLoading, isError, error } = useOrderDetailsQuery(id!);
   
   const [orderDetails, setOrderDetails] = useState<any>(null);
