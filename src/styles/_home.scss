@@ -224,14 +224,14 @@
     
     /* Ensure all cards have consistent minimum height */
     .product-card {
-      min-height: 350px;
+      min-height: 400px;
       
       @media (max-width: 768px) {
-        min-height: 320px;
+        min-height: 370px;
       }
       
       @media (max-width: 480px) {
-        min-height: 280px;
+        min-height: 330px;
       }
   }
 }
@@ -310,9 +310,15 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    position: relative;
+    justify-content: space-between;
     
     @media (max-width: 768px) {
       padding: 1rem;
+    }
+    
+    .title-container {
+      margin-bottom: auto;
     }
     
     h3 {
@@ -321,15 +327,19 @@
       margin-bottom: 0.75rem;
       // For long titles, truncate with ellipsis
       display: -webkit-box;
-      -webkit-line-clamp: 2;
+      -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       overflow: hidden;
-      height: 2.8rem;
+      height: auto;
+      min-height: 4.2rem;
+      margin-bottom: 1.2rem;
+      line-height: 1.4;
       
       @media (max-width: 768px) {
         font-size: 0.9rem;
-        height: 2.4rem;
-        margin-bottom: 0.5rem;
+        min-height: 3.6rem;
+        margin-bottom: 1rem;
+        line-height: 1.35;
       }
     }
     
@@ -337,10 +347,15 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 1rem;
+      margin-bottom: 1.2rem;
+      position: relative;
+      z-index: 1;
+      background: white;
+      padding-top: 0.5rem;
       
       @media (max-width: 768px) {
-        margin-bottom: 0.7rem;
+        margin-bottom: 1rem;
+        padding-top: 0.3rem;
       }
       
       .product-rating {
@@ -374,7 +389,7 @@
     }
     
     .add-to-cart-btn {
-      margin-top: auto;
+      margin-top: 1rem;
       background-color: $color3;
       color: white;
       border: none;

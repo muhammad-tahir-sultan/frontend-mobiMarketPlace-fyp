@@ -21,13 +21,15 @@ const ProductCard = ({ image, productId, stock, price, title, handler, ratings =
         {stock <= 0 && <span className="out-of-stock">Out of Stock</span>}
       </div>
       <div className="product-details">
-        <h3>{title}</h3>
+        <div className="title-container">
+          <h3>{title}</h3>
+        </div>
         <div className="product-meta">
           <div className="product-rating">
             <FaStar />
             <span>{ratings.toFixed(1)}</span>
           </div>
-          <span className="product-price">${price}</span>
+          <span className="product-price">PKR {price}</span>
         </div>
         <button 
           className="add-to-cart-btn" 

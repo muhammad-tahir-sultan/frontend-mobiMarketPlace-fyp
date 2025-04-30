@@ -56,8 +56,8 @@ const Orders = () => {
               <div className="order-row" key={order._id}>
                 <div className="order-id">{order._id}</div>
                 <div className="order-quantity">{order.quantity}</div>
-                <div className="order-discount">${order.discount}</div>
-                <div className="order-amount">${order.total}</div>
+                <div className="order-discount">PKR {order.discount}</div>
+                <div className="order-amount">PKR {order.total}</div>
                 <div className="order-status">
                   <span className={
                     order.status === "Processing" 

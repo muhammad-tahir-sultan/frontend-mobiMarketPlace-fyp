@@ -81,7 +81,7 @@ const CheckOutForm = () => {
                                     <FaSpinner /> Processing...
                                 </>
                             ) : (
-                                <>Pay ${total.toFixed(2)}</>
+                                <>Pay PKR {total.toFixed(2)}</>
                             )}
                         </button>
                         <div className="secure-payment">
@@ -105,7 +105,7 @@ const CheckOutForm = () => {
                                     <div className="item-quantity">Qty: {item.quantity}</div>
                                 </div>
                                 <div className="item-price">
-                                    ${(item.price * item.quantity).toFixed(2)}
+                                    PKR {(item.price * item.quantity).toFixed(2)}
                                 </div>
                             </div>
                         ))}
@@ -114,25 +114,25 @@ const CheckOutForm = () => {
                     <div className="summary-details">
                         <div className="summary-row">
                             <span>Subtotal</span>
-                            <span>${subtotal.toFixed(2)}</span>
+                            <span>PKR {subtotal.toFixed(2)}</span>
                         </div>
                         <div className="summary-row">
                             <span>Shipping</span>
-                            <span>${shippingCharges.toFixed(2)}</span>
+                            <span>PKR {shippingCharges.toFixed(2)}</span>
                         </div>
                         <div className="summary-row">
                             <span>Tax</span>
-                            <span>${tax.toFixed(2)}</span>
+                            <span>PKR {tax.toFixed(2)}</span>
                         </div>
                         {discount > 0 && (
                             <div className="summary-row discount">
                                 <span>Discount</span>
-                                <span>-${discount.toFixed(2)}</span>
+                                <span>-PKR {discount.toFixed(2)}</span>
                             </div>
                         )}
                         <div className="summary-row total">
                             <span>Total</span>
-                            <span>${total.toFixed(2)}</span>
+                            <span>PKR {total.toFixed(2)}</span>
                         </div>
                     </div>
 

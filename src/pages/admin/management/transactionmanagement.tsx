@@ -106,11 +106,11 @@ const TransactionManagement = () => {
                 Address: {`${address}, ${city}, ${state}, ${country} ${postalCode}`}
               </p>
               <h5>Amount Info</h5>
-              <p>Subtotal: {subtotal}</p>
+              <p>Subtotal: PKR {subtotal}</p>
               {/* <p>Shipping Charges: {shippingCharges}</p> */}
-              <p>Tax: {tax}</p>
-              <p>Discount: {discount}</p>
-              <p>Total: {total}</p>
+              <p>Tax: PKR {tax}</p>
+              <p>Discount: PKR {discount}</p>
+              <p>Total: PKR {total}</p>
 
               <h5>Status Info</h5>
               <p>
@@ -155,7 +155,7 @@ const ProductCard = ({
       <img src={imageUrl} alt={title} />
       <Link to={`/product/${productId}`}>{title}</Link>
       <span>
-        ${price} X {quantity} = ${price * quantity}
+        PKR {price} X {quantity} = PKR {price * quantity}
       </span>
     </div>
   )

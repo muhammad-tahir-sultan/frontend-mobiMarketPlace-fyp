@@ -32,6 +32,15 @@
   @media (max-width: 600px) {
     padding: 1rem;
   }
+  
+  &.empty-cart-container {
+    padding: 1rem;
+    display: block;
+    
+    @media (max-width: 600px) {
+      padding: 0.5rem;
+    }
+  }
 
   > main {
     width: 65%;
@@ -47,16 +56,43 @@
       max-height: none;
     }
     
+    &.empty-cart-main {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 900px;
+      margin: 0 auto;
+      min-height: 70vh;
+    }
+    
     > h1 {
       @include heading(2px);
       text-align: center;
       padding: 3rem 0;
       color: #888;
       font-size: 1.8rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 300px;
+      
+      &::before {
+        content: '🛒';
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+      }
       
       @media (max-width: 600px) {
         font-size: 1.5rem;
         padding: 2rem 0;
+        min-height: 200px;
+        
+        &::before {
+          font-size: 3rem;
+          margin-bottom: 1rem;
+        }
       }
     }
     
@@ -75,6 +111,24 @@
       
       &:hover {
         background: #aaa;
+      }
+    }
+
+    .empty-cart {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 400px;
+      text-align: center;
+      padding: 3rem 2rem;
+      
+      @media (max-width: 600px) {
+        min-height: 300px;
+        padding: 2rem 1rem;
       }
     }
   }
@@ -272,6 +326,47 @@
     }
   }
 
+  > div.quantity-selector {
+    @include flex(row, center, center, 0.25rem);
+    
+    @media (max-width: 600px) {
+      margin-top: 1rem;
+      align-self: flex-start;
+    }
+    
+    select {
+      border: 1px solid #e0e0e0;
+      width: 5rem;
+      height: 2.5rem;
+      border-radius: 4px;
+      padding: 0 0.5rem;
+      font-size: 1rem;
+      background-color: #f8f8f8;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      appearance: none;
+      background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23131313%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.7rem top 50%;
+      background-size: 0.65rem auto;
+      
+      &:hover {
+        border-color: #bdbdbd;
+      }
+      
+      &:focus {
+        border-color: $color3;
+        box-shadow: 0 0 0 2px rgba($color3, 0.2);
+        outline: none;
+      }
+      
+      @media (max-width: 600px) {
+        width: 4.5rem;
+        height: 2.2rem;
+      }
+    }
+  }
+
   > div {
     @include flex(row, center, center, 0.25rem);
     
@@ -345,5 +440,78 @@
   @media (max-width: 600px) {
     font-size: 1.5rem;
     margin: 1rem 0;
+  }
+}
+
+.empty-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 400px;
+  text-align: center;
+  padding: 3rem 2rem;
+  
+  h1 {
+    @include heading(2px);
+    color: #888;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    
+    &::before {
+      content: '🛒';
+      font-size: 4rem;
+      margin-bottom: 1.5rem;
+      display: block;
+    }
+    
+    @media (max-width: 600px) {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+      
+      &::before {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  
+  .shop-now-btn {
+    background-color: $color3;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    
+    svg {
+      margin-left: 10px;
+      transition: transform 0.3s ease;
+    }
+    
+    &:hover {
+      background-color: color.adjust($color3, $lightness: -10%);
+      transform: translateY(-3px);
+      
+      svg {
+        transform: translateX(4px);
+      }
+    }
+    
+    @media (max-width: 600px) {
+      padding: 0.7rem 1.5rem;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    min-height: 300px;
+    padding: 2rem 1rem;
   }
 }

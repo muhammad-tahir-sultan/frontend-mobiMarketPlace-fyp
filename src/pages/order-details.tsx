@@ -91,27 +91,27 @@ const OrderDetails = () => {
           
           <div className="detail-row">
             <div className="detail-label">Subtotal</div>
-            <div className="detail-value">${orderDetails.subtotal}</div>
+            <div className="detail-value">PKR {orderDetails.subtotal}</div>
           </div>
           
           <div className="detail-row">
             <div className="detail-label">Shipping</div>
-            <div className="detail-value">${orderDetails.shippingCharges}</div>
+            <div className="detail-value">PKR {orderDetails.shippingCharges}</div>
           </div>
           
           <div className="detail-row">
             <div className="detail-label">Tax</div>
-            <div className="detail-value">${orderDetails.tax}</div>
+            <div className="detail-value">PKR {orderDetails.tax}</div>
           </div>
           
           <div className="detail-row">
             <div className="detail-label">Discount</div>
-            <div className="detail-value">-${orderDetails.discount}</div>
+            <div className="detail-value">-PKR {orderDetails.discount}</div>
           </div>
           
           <div className="detail-row">
             <div className="detail-label">Total</div>
-            <div className="detail-value highlight">${orderDetails.total}</div>
+            <div className="detail-value highlight">PKR {orderDetails.total}</div>
           </div>
         </div>
         
@@ -127,11 +127,11 @@ const OrderDetails = () => {
                   <div className="item-name">{item.name}</div>
                   <div className="item-meta">
                     <span>Quantity: {item.quantity}</span>
-                    <span>Price: ${item.price}</span>
+                    <span>Price: PKR {item.price}</span>
                   </div>
                 </div>
                 <div className="item-price">
-                  ${item.price * item.quantity}
+                  PKR {item.price * item.quantity}
                 </div>
               </div>
             ))}

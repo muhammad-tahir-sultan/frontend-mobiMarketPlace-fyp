@@ -81,57 +81,63 @@ const Cart = () => {
         <FaShoppingCart /> Your Shopping Cart
       </h1>
       
-      <div className="cart">
-        <main>
+      <div className={`cart ${cartItems.length === 0 ? 'empty-cart-container' : ''}`}>
+        <main className={cartItems.length === 0 ? 'empty-cart-main' : ''}>
           {
             cartItems.length > 0 ? cartItems?.map((item, index) =>
               <CartItemCard cartItem={item} key={index} decrementHandler={decrementHandler} incrementHandler={addToCartHandler} removeHandler={removeFromCartHandler} />
-            ) : <h1>Your cart is empty</h1>
+            ) : (
+              <div className="empty-cart">
+                <h1>Your cart is empty</h1>
+                <Link to="/search" className="shop-now-btn">
+                  Shop Now <FaArrowRight />
+                </Link>
+              </div>
+            )
           }
         </main>
         
-        <aside>
-          <h3>Order Summary</h3>
-          <p>
-            <span>Subtotal:</span> <span>${subtotal}</span>
-          </p>
-          <p>
-            <span>Shipping:</span> <span>${shippingCharges}</span>
-          </p>
-          <p>
-            <span>Tax:</span> <span>${tax}</span>
-          </p>
-          <p>
-            <span>Discount:</span> <span className="red">- ${discount}</span>
-          </p>
-          <p>
-            <span>Total:</span> <span>${total}</span>
-          </p>
+        {cartItems.length > 0 && (
+          <aside>
+            <h3>Order Summary</h3>
+            <p>
+              <span>Subtotal:</span> <span>PKR {subtotal}</span>
+            </p>
+            <p>
+              <span>Shipping:</span> <span>PKR {shippingCharges}</span>
+            </p>
+            <p>
+              <span>Tax:</span> <span>PKR {tax}</span>
+            </p>
+            <p>
+              <span>Discount:</span> <span className="red">- PKR {discount}</span>
+            </p>
+            <p>
+              <span>Total:</span> <span>PKR {total}</span>
+            </p>
 
-          <input 
-            type="text" 
-            placeholder="Enter Coupon Code" 
-            value={couponCode}
-            onChange={(e) => setCouponCode(e.target.value)} 
-          />
-          
-          {
-            couponCode && (
-              isValidCouponCode ? 
-                <span className="green">${discount} off using <code>{couponCode}</code></span> : 
-                <span className="red">
-                  Invalid Coupon <VscError />
-                </span>
-            )
-          }
-          
-          {
-            cartItems.length > 0 && 
+            <input 
+              type="text" 
+              placeholder="Enter Coupon Code" 
+              value={couponCode}
+              onChange={(e) => setCouponCode(e.target.value)} 
+            />
+            
+            {
+              couponCode && (
+                isValidCouponCode ? 
+                  <span className="green">PKR {discount} off using <code>{couponCode}</code></span> : 
+                  <span className="red">
+                    Invalid Coupon <VscError />
+                  </span>
+              )
+            }
+            
             <Link to={"/shipping"}>
               Proceed to Checkout <FaArrowRight />
             </Link>
-          }
-        </aside>
+          </aside>
+        )}
       </div>
     </div>
   )

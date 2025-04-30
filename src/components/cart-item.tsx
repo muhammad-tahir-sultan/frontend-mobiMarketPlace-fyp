@@ -1,4 +1,4 @@
-import { FaTrash, FaMinus, FaPlus } from "react-icons/fa"
+import { FaTrash } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import { CartItem } from "../types/types"
 
@@ -22,17 +22,31 @@ const CartItemCard = ({ cartItem, decrementHandler, removeHandler, incrementHand
             <img src={imageUrl} alt={title} />
             <article>
                 <Link to={`/product/${productId}`}>{title}</Link>
-                <span>${price}</span>
+                <span>PKR {price}</span>
             </article>
 
-            <div>
-                <button onClick={() => decrementHandler(cartItem)}>
-                    <FaMinus />
-                </button>
-                <button>{quantity}</button>
-                <button onClick={() => incrementHandler(cartItem)}>
-                    <FaPlus />
-                </button>
+            <div className="quantity-selector">
+                <select 
+                    value={quantity} 
+                    onChange={(e) => {
+                        const newQuantity = Number(e.target.value);
+                        if (newQuantity > quantity) {
+                            // Add more items
+                            incrementHandler({...cartItem, quantity: newQuantity - quantity});
+                        } else if (newQuantity < quantity) {
+                            // Remove items
+                            for (let i = 0; i < quantity - newQuantity; i++) {
+                                decrementHandler(cartItem);
+                            }
+                        }
+                    }}
+                >
+                    {[...Array(10)].map((_, i) => (
+                        <option key={i} value={i + 1}>
+                            {i + 1}
+                        </option>
+                    ))}
+                </select>
             </div>
 
             <button onClick={() => removeHandler(productId)} title="Remove Item">

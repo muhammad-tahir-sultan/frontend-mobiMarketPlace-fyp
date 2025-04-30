@@ -180,7 +180,7 @@ const ProductDetails = () => {
                                         )}
                                         </div>
                                     <div className="product-actions">
-                                        <div className="product-price">${price}</div>
+                                        <div className="product-price">PKR {price}</div>
                                         <button 
                                             className="add-to-cart-button" 
                                             onClick={() => addToCartHandler({ 
