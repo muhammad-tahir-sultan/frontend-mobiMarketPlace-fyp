@@ -38,7 +38,7 @@ const Home = () => {
       <section className="hero-section">
         <div className="hero-content">
           <h1>The Ultimate Mobile Experience</h1>
-          <p>Discover premium smartphones and accessories at unbeatable prices with free delivery</p>
+          <p>Discover premium smartphones and accessories at unbeatable prices with fast delivery</p>
           <Link to="/search" className="cta-button">
             Explore Collection <FaArrowRight />
           </Link>
