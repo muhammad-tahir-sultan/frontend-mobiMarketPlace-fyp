@@ -56,7 +56,7 @@ const OrderDetails = () => {
     </div>
   );
   
-  return (
+    return (
     <div className="orders-page">
       <div className="orders-container">
         <h1 className="page-title">

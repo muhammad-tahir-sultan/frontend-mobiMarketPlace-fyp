@@ -182,10 +182,10 @@
         border-radius: 3px;
       }
     }
-  }
+}
 
-  .findmore {
-    font-size: 1rem;
+.findmore {
+  font-size: 1rem;
     background-color: $color3;
     color: white;
     padding: 0.5rem 1rem;
@@ -204,9 +204,9 @@
   }
 
   > main {
-    width: 100%;
+  width: 100%;
     padding: 0 2rem;
-    flex: 1;
+  flex: 1;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: 2rem;
@@ -214,7 +214,7 @@
     @media (max-width: 768px) {
       padding: 0 1rem;
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 1rem;
+  gap: 1rem;
     }
     
     @media (max-width: 480px) {
@@ -233,8 +233,8 @@
       @media (max-width: 480px) {
         min-height: 280px;
       }
-    }
   }
+}
 }
 
 .product-card {
@@ -274,9 +274,9 @@
     
     @media (max-width: 480px) {
       padding-bottom: 75%;
-    }
-    
-    img {
+  }
+
+  img {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -316,7 +316,7 @@
     }
     
     h3 {
-      font-size: 1.1rem;
+    font-size: 1.1rem;
       font-weight: 600;
       margin-bottom: 0.75rem;
       // For long titles, truncate with ellipsis
@@ -694,7 +694,7 @@
       color: #333;
       
       @media (max-width: 768px) {
-        font-size: 1.1rem;
+      font-size: 1.1rem;
       }
     }
     
@@ -715,7 +715,7 @@
       padding-bottom: 2px;
       border-bottom: 2px solid transparent;
       transition: all 0.3s ease;
-      
+
       &:hover {
         border-color: $color3;
       }
