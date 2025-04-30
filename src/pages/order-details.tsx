@@ -10,7 +10,7 @@ import { FaShoppingBag, FaTruck, FaCalendarAlt, FaMapMarkerAlt } from 'react-ico
 const OrderDetails = () => {
   const { id } = useParams<{ id: string }>();
   const { user } = useSelector((state: { userReducer: UserReducerInitialState }) => state.userReducer);
-  const { data, isLoading, isError, error } = useOrderDetailsQuery({ orderId: id!, userId: user?._id! });
+  const { data, isLoading, isError, error } = useOrderDetailsQuery(id!);
   
   const [orderDetails, setOrderDetails] = useState<any>(null);
   
