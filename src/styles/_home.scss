@@ -1,3 +1,5 @@
+@use "sass:color";
+
 .home {
   display: flex;
   flex-direction: column;
@@ -81,7 +83,7 @@
         }
         
         &:hover {
-          background-color: darken($color3, 10%);
+          background-color: color.adjust($color3, $lightness: -10%);
           transform: translateY(-5px);
           
           svg {
@@ -196,7 +198,7 @@
     }
     
     &:hover {
-      background-color: darken($color3, 10%);
+      background-color: color.adjust($color3, $lightness: -10%);
       transform: translateY(-2px);
     }
   }
@@ -407,7 +409,7 @@
       }
       
       &:hover {
-        background-color: darken($color3, 10%);
+        background-color: color.adjust($color3, $lightness: -10%);
       }
       
       &:disabled {

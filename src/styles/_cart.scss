@@ -1,3 +1,5 @@
+@use "sass:color";
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -169,7 +171,7 @@
       transition: all 0.3s ease;
       
       &:hover {
-        background-color: darken($color3, 10%);
+        background-color: color.adjust($color3, $lightness: -10%);
         transform: translateY(-2px);
       }
     }

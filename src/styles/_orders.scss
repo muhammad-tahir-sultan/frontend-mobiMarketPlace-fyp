@@ -1,3 +1,5 @@
+@use "sass:color";
+
 .orders-page {
   background-color: #f8f9fa;
   min-height: calc(100vh - 7rem);
@@ -91,7 +93,7 @@
       transition: all 0.3s ease;
       
       &:hover {
-        background-color: darken($color3, 10%);
+        background-color: color.adjust($color3, $lightness: -10%);
         transform: translateY(-2px);
       }
       

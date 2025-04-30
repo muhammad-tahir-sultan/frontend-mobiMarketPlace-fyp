@@ -14,11 +14,13 @@ $color3: #0d87eb; // Define your color3
   $alignItems: center,
   $gap: 1rem
 ) {
-  display: flex;
-  flex-direction: $dir;
-  justify-content: $justifyContent;
-  align-items: $alignItems;
-  gap: $gap;
+  & {
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+    gap: $gap;
+  }
 }
 @mixin grid($col: 1fr, $gap: 1rem, $row: unset) {
   display: grid;

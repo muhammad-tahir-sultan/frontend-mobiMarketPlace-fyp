@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // Product Details Page Styling
 
 // Main product details section
@@ -236,7 +238,7 @@
       }
       
       .add-to-cart-button {
-        background-color: $color3;
+        background-color: color.adjust($color3, $lightness: -10%);
         color: white;
         border: none;
         padding: 1rem 2rem;
@@ -251,7 +253,7 @@
         }
         
         &:hover {
-          background-color: darken($color3, 10%);
+          background-color: color.adjust($color3, $lightness: -10%);
           transform: translateY(-2px);
         }
         
@@ -348,7 +350,7 @@
       }
       
       &:hover {
-        background-color: darken($color3, 10%);
+        background-color: color.adjust($color3, $lightness: -10%);
         transform: translateY(-2px);
       }
     }
