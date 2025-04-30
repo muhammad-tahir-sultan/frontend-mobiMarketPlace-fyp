@@ -59,8 +59,8 @@ const OrderDetails = () => {
         {/* Header */}
         <div className="receipt-header">
           <div className="receipt-header-text">
-            <h2>Thanks for your Order, {user?.name} !</h2>
             <div className="store-name">MobiCommerce</div>
+            <h2>Thanks for your Order, {user?.name} !</h2>
           </div>
           <div className="receipt-logo">
             <FaShoppingBag />

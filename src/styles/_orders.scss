@@ -493,11 +493,15 @@
         font-size: 1.5rem;
         color: #333;
         font-weight: 600;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0;
       }
       
       .store-name {
-        color: #777;
+        color: $color3;
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        letter-spacing: 0.5px;
       }
     }
     
@@ -517,6 +521,10 @@
       .receipt-header-text {
         h2 {
           font-size: 1.2rem;
+        }
+        
+        .store-name {
+          font-size: 1.1rem;
         }
       }
       
