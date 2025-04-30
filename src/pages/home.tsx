@@ -66,7 +66,7 @@ const Home = () => {
 
       <main>
         {isLoading ? (
-          <Skeleton width="100%" length={5} />
+          <Skeleton width="84vw" length={5} />
         ) : (
           data?.products?.map((product) => (
             <ProductCard
@@ -94,7 +94,7 @@ const Home = () => {
       <section className="mobile-banner-section">
         <div className="mobile-banner-container">
           {/* Banner Card 1 */}
-          <div className="mobile-banner-card card-large">
+          <div className="mobile-banner-card card-large" style={{ height: "420px" }}>
             <div className="banner-content">
               <span className="banner-label">Premium</span>
               <h3>iPhone Pro Series</h3>
@@ -130,6 +130,57 @@ const Home = () => {
               </div>
               <div className="banner-image">
                 <img src="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="iPhone Mini" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Android Categories Section */}
+      <div className="section-heading">
+        <h2>Android Categories</h2>
+        <Link to="/search?category=mobile&os=android" className="findmore">View All Android</Link>
+      </div>
+
+      <section className="mobile-banner-section">
+        <div className="mobile-banner-container">
+          {/* Banner Card 1 */}
+          <div className="mobile-banner-card card-large" style={{ height: "420px" }}>
+            <div className="banner-content">
+              <span className="banner-label">Flagship</span>
+              <h3>Premium Android</h3>
+              <p>Top-tier performance & cameras</p>
+              <Link to="/search?category=mobile&os=android&price[gte]=700" className="banner-btn">Shop Now</Link>
+            </div>
+            <div className="banner-image">
+              <img src="https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Premium Android Phones" />
+            </div>
+          </div>
+
+          <div className="mobile-banners-small">
+            {/* Banner Card 2 */}
+            <div className="mobile-banner-card card-small" style={{ height: "200px", position: "relative", overflow: "visible" }}>
+              <div className="banner-content" style={{ zIndex: "5", position: "relative", padding: "15px" }}>
+                <span className="banner-label" style={{ display: "inline-block", marginBottom: "8px" }}>Mid-Range</span>
+                <h3 style={{ marginBottom: "8px" }}>Value Android</h3>
+                <p style={{ marginBottom: "12px" }}>Performance meets affordability</p>
+                <Link to="/search?category=mobile&os=android&price[gte]=300&price[lte]=699" className="banner-btn" style={{ position: "relative", zIndex: "10" }}>Shop Now</Link>
+              </div>
+              <div className="banner-image" style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%", zIndex: "1" }}>
+                <img src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Mid-Range Android" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+              </div>
+            </div>
+
+            {/* Banner Card 3 */}
+            <div className="mobile-banner-card card-small" style={{ height: "200px", position: "relative", overflow: "visible" }}>
+              <div className="banner-content" style={{ zIndex: "5", position: "relative", padding: "15px" }}>
+                <span className="banner-label" style={{ display: "inline-block", marginBottom: "8px" }}>Budget</span>
+                <h3 style={{ marginBottom: "8px" }}>Affordable Android</h3>
+                <p style={{ marginBottom: "12px" }}>Great features at lower prices</p>
+                <Link to="/search?category=mobile&os=android&price[lte]=299" className="banner-btn" style={{ position: "relative", zIndex: "10" }}>Shop Now</Link>
+              </div>
+              <div className="banner-image" style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%", zIndex: "1" }}>
+                <img src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Budget Android" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
               </div>
             </div>
           </div>

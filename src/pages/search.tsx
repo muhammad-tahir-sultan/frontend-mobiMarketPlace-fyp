@@ -18,7 +18,7 @@ const Search = () => {
   const [search, setSearch] = useState("")
   const [category, setCategory] = useState("")
   const [sort, setSort] = useState("")
-  const [maxPrice, setMaxPrice] = useState(1000000)
+  const [maxPrice, setMaxPrice] = useState(700000)
   const [page, setPage] = useState(1)
 
   const { isLoading: searchLoading, data: searchedData, isError: productIsError } = useSearchProductsQuery({ search, category, sort, price: maxPrice, page })
@@ -82,7 +82,7 @@ const Search = () => {
         <div>
           <h4><FaFilter /> Price Range</h4>
           <p className="price-range-display">Max: {formatPrice(maxPrice)}</p>
-          <input type="range" min={100} max={1000000} value={maxPrice} onChange={(e) => setMaxPrice(Number(e.target.value))} />
+          <input type="range" min={100} max={700000} value={maxPrice} onChange={(e) => setMaxPrice(Number(e.target.value))} />
         </div>
 
         <div>
@@ -112,7 +112,7 @@ const Search = () => {
         <div className="search-product-list">
           {
             searchLoading ? (
-              <Skeleton length={8} />
+              <Skeleton width="45vw" length={20} />
             ) : searchedData?.products && searchedData.products.length > 0 ? (
               searchedData.products.map(product => (
                 <ProductCard 
@@ -135,7 +135,7 @@ const Search = () => {
                   setSearch("");
                   setCategory("");
                   setSort("");
-                  setMaxPrice(1000000);
+                  setMaxPrice(700000);
                 }}>Clear Filters</button>
               </div>
             )

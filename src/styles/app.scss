@@ -303,6 +303,9 @@ a {
 .skeleton-loader {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  min-width: 70vw;
+  margin: 0 auto;
 }
 
 .skeleton-shape {
