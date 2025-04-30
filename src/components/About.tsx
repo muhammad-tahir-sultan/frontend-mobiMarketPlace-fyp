@@ -37,8 +37,8 @@ const About = () => {
               Visit Instagram
             </Button>
             <span>
-              This is an Mobile E-Commerce Store Build In MERN STACK done by Mohammad
-              Tahir. I enjoyed and learned a lot by this project. Feeling Happy
+              This is an Mobile E-Commerce Website Build In MERN STACK done by Mohammad
+              Tahir.
               😉😎🥰.
             </span>
           </motion.div>
