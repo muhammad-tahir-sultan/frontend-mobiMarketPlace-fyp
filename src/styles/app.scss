@@ -38,6 +38,9 @@ a {
 @import "_shipping";
 @import "_login";
 @import "_search";
+@import "_product-details";
+@import "_footer";
+@import "_orders";
 @import "./admin/dashboard";
 @import "./admin/products";
 @import "./admin/chart";
@@ -107,6 +110,9 @@ a {
     position: absolute;
     left: calc(100% - 100px);
     top: 8%;
+    z-index: 9999;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
     >div {
       @include flex(column, flex-start, center, 0.25rem);

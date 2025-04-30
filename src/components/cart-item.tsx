@@ -1,4 +1,4 @@
-import { FaTrash } from "react-icons/fa"
+import { FaTrash, FaMinus, FaPlus } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import { CartItem } from "../types/types"
 
@@ -22,16 +22,20 @@ const CartItemCard = ({ cartItem, decrementHandler, removeHandler, incrementHand
             <img src={imageUrl} alt={title} />
             <article>
                 <Link to={`/product/${productId}`}>{title}</Link>
-                <span>${price} </span>
+                <span>${price}</span>
             </article>
 
             <div>
-                <button onClick={() => decrementHandler(cartItem)}>-</button>
+                <button onClick={() => decrementHandler(cartItem)}>
+                    <FaMinus />
+                </button>
                 <button>{quantity}</button>
-                <button onClick={() => incrementHandler(cartItem)}>+</button>
+                <button onClick={() => incrementHandler(cartItem)}>
+                    <FaPlus />
+                </button>
             </div>
 
-            <button onClick={() => removeHandler(productId)}>
+            <button onClick={() => removeHandler(productId)} title="Remove Item">
                 <FaTrash />
             </button>
         </div>

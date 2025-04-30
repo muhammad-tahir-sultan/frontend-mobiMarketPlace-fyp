@@ -8,6 +8,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { CartItem } from "../types/types"
 import { addToCart } from "../redux/reducers/cartReducers"
 import { CartReducerInitialState } from "../types/reducer-types"
+import { FaSearch, FaSort, FaFilter, FaTag, FaChevronLeft, FaChevronRight } from "react-icons/fa"
 
 const Search = () => {
 
@@ -52,16 +53,23 @@ const Search = () => {
   }
 
 
-
-
   const isPrevPage = page > 1;
-  const isNextPage = page < 4;
+  const isNextPage = page < (searchedData?.totalPages || 1);
+  
+  const formatPrice = (price: number) => {
+    return new Intl.NumberFormat('en-US', { 
+      style: 'currency', 
+      currency: 'USD',
+      maximumFractionDigits: 0 
+    }).format(price);
+  }
+
   return (
     <div className="product-search-page">
       <aside>
-        <h2>Filters</h2>
+        <h2>Filter Products</h2>
         <div>
-          <h4> Sort </h4>
+          <h4><FaSort /> Sort By</h4>
           <select value={sort} onChange={(e) => setSort(e.target.value)}>
             <option value="">None</option>
             <option value="price-asc">Price: Low to High</option>
@@ -72,53 +80,83 @@ const Search = () => {
         </div>
 
         <div>
-          <h4> Max Price : {maxPrice || ""} </h4>
+          <h4><FaFilter /> Price Range</h4>
+          <p className="price-range-display">Max: {formatPrice(maxPrice)}</p>
           <input type="range" min={100} max={1000000} value={maxPrice} onChange={(e) => setMaxPrice(Number(e.target.value))} />
         </div>
 
         <div>
-          <h4> Category </h4>
+          <h4><FaTag /> Category</h4>
           <select value={category} onChange={(e) => setCategory(e.target.value)}>
-            <option value="">All</option>
+            <option value="">All Categories</option>
             {
               !loadingCategories && categoriesResponse?.categories.map(category => <option key={category} value={category}>{category.toUpperCase()}</option>)
             }
           </select>
         </div>
-      </aside >
+      </aside>
 
 
       <main>
-
-        <h1>Products</h1>
-        <input type="text" placeholder="Search By Name..." value={search} onChange={(e) => setSearch(e.target.value)} />
+        <h1>Discover Products</h1>
+        <div className="search-input-container">
+          <FaSearch className="search-icon" />
+          <input 
+            type="text" 
+            placeholder="Search for products..." 
+            value={search} 
+            onChange={(e) => setSearch(e.target.value)} 
+          />
+        </div>
+        
         <div className="search-product-list">
           {
-            searchLoading ? <Skeleton /> : searchedData?.products.map(product => (
-              <ProductCard 
-                key={product._id}
-                productId={product._id} 
-                title={product.title} 
-                stock={product.stock} 
-                price={product.price} 
-                image={product.images && product.images.length > 0 
-                  ? product.images[0].url 
-                  : "https://via.placeholder.com/200"} 
-                handler={addToCartHandler} 
-              />
-            ))
+            searchLoading ? (
+              <Skeleton length={8} />
+            ) : searchedData?.products && searchedData.products.length > 0 ? (
+              searchedData.products.map(product => (
+                <ProductCard 
+                  key={product._id}
+                  productId={product._id} 
+                  title={product.title} 
+                  stock={product.stock} 
+                  price={product.price} 
+                  image={product.images && product.images.length > 0 
+                    ? product.images[0].url 
+                    : "https://via.placeholder.com/200"} 
+                  handler={addToCartHandler} 
+                  ratings={product.ratings}
+                />
+              ))
+            ) : (
+              <div className="no-results">
+                <p>No products found matching your criteria</p>
+                <button onClick={() => {
+                  setSearch("");
+                  setCategory("");
+                  setSort("");
+                  setMaxPrice(1000000);
+                }}>Clear Filters</button>
+              </div>
+            )
           }
         </div>
 
         {
-          searchedData && searchedData?.totalPages > 1 && <article>
-            <button disabled={!isPrevPage} onClick={() => setPage((prev) => prev - 1)}>Prev</button>
-            <span>{page} of {searchedData?.totalPages} </span>
-            <button disabled={!isNextPage} onClick={() => setPage((prev) => prev + 1)}>Next</button>
-          </article>
+          searchedData && searchedData?.totalPages > 1 && (
+            <article>
+              <button disabled={!isPrevPage} onClick={() => setPage((prev) => prev - 1)}>
+                <FaChevronLeft /> Prev
+              </button>
+              <span>Page {page} of {searchedData?.totalPages}</span>
+              <button disabled={!isNextPage} onClick={() => setPage((prev) => prev + 1)}>
+                Next <FaChevronRight />
+              </button>
+            </article>
+          )
         }
       </main>
-    </div >
+    </div>
   )
 }
 

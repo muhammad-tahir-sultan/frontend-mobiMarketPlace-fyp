@@ -1,32 +1,81 @@
 // src/components/Footer.jsx
 import { Link } from 'react-router-dom';
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+  
   return (
-    <footer className="p-10 bg-gray-900 text-gray-300">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-52 px-64">
-        {/* Links */}
-        <div className="flex flex-col space-y-2">
-          <Link to={"/"} className="text-gray-400 hover:text-gray-300">Home</Link>
-          <Link to={"/contact"} className="text-gray-400 hover:text-gray-300">Contact</Link>
-          <Link to={"/about"} className="text-gray-400 hover:text-gray-300">About</Link>
-          <Link to={"/search"} className="text-gray-400 hover:text-gray-300">Search</Link>
+    <footer className="footer">
+      <div className="footer-gradient"></div>
+      
+      <div className="footer-container">
+        {/* Brand Section */}
+        <div className="footer-brand">
+          <div className="footer-logo">
+            <h2>Mobi Commerce</h2>
+          </div>
+          <p>
+            Your one-stop destination for premium mobile phones and accessories. 
+            We provide the latest tech with unbeatable prices and exceptional customer service.
+          </p>
+          <div className="footer-social">
+            <a href="https://facebook.com/sigmadeveloper" aria-label="Facebook">
+              <FaFacebookF />
+            </a>
+            <a href="https://twitter.com/sigmadeveloper" aria-label="Twitter">
+              <FaTwitter />
+            </a>
+            <a href="https://instagram.com/sigmadeveloper" aria-label="Instagram">
+              <FaInstagram />
+            </a>
+            <a href="https://www.linkedin.com/in/muhammad-tahir-432635351" aria-label="LinkedIn">
+              <FaLinkedinIn />
+            </a>
+          </div>
         </div>
-
-        {/* Social Media */}
-        <div>
-          <h3 className="font-semibold text-white">Follow Us</h3>
-          <div className="flex flex-col mt-2">
-            <a href="https://facebook.com/sigmadeveloper" className="text-gray-400 hover:text-gray-300">Facebook</a>
-            <a href="https://instagram.com/tahirsultanofficial" className="text-gray-400 hover:text-gray-300">Instagram</a>
-            <a href="https://www.linkedin.com/in/muhammad-tahir-432635351" className="text-gray-400 hover:text-gray-300">LinkedIn</a>
-            <a href="https://x.com" className="text-gray-400 hover:text-gray-300">Twitter</a>
+        
+        {/* Quick Links */}
+        <div className="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/search">Shop</Link></li>
+            <li><Link to="/about">About Us</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/orders">My Orders</Link></li>
+          </ul>
+        </div>
+        
+        {/* Contact Info */}
+        <div className="footer-contact">
+          <h3>Contact Us</h3>
+          <div className="contact-info">
+            <p>
+              <FaPhoneAlt />
+              +92 3241553013
+            </p>
+            <p>
+              <FaEnvelope />
+              tahirsultanofficial@gmail.com
+            </p>
+            <p>
+              <FaMapMarkerAlt />
+              123 Commerce Street, Multan, Pakistan
+            </p>
           </div>
         </div>
       </div>
-
-      <div className="text-center mt-8 border-t border-gray-700 pt-4">
-        <p className="text-gray-500">&copy; {new Date().getFullYear()} MobiCommerce. All rights reserved.</p>
+      
+      {/* Footer Bottom */}
+      <div className="footer-bottom">
+        <div className="copyright">
+          &copy; {currentYear} <a href="/">MobiCommerce</a>. All Rights Reserved.
+        </div>
+        <div className="footer-legal">
+          {/* <Link to="/privacy">Privacy Policy</Link>
+          <Link to="/terms">Terms of Service</Link> */}
+        </div>
       </div>
     </footer>
   );

@@ -1,0 +1,90 @@
+/* Review Dialog Styles */
+.review-dialog .review-dialog-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 16px 24px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.review-dialog .review-dialog-content {
+  padding: 24px;
+  min-width: 450px;
+}
+
+.review-dialog .rating-container {
+  margin-bottom: 24px;
+}
+
+.review-dialog .rating-label,
+.review-dialog .comment-label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #495057;
+}
+
+.review-dialog .rating-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.review-dialog .rating-stars {
+  color: #f59e0b;
+}
+
+.review-dialog .rating-value {
+  margin-left: 12px;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.review-dialog .comment-textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: inherit;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.review-dialog .comment-textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+}
+
+.review-dialog .review-dialog-actions {
+  padding: 16px 24px;
+  border-top: 1px solid #e9ecef;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.review-dialog .cancel-button {
+  color: #6c757d;
+  border: 1px solid #ced4da;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.review-dialog .submit-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.review-dialog .submit-button:hover:not(:disabled) {
+  background-color: #2563eb;
+}
+
+.review-dialog .submit-button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+} 

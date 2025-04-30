@@ -2,17 +2,144 @@
   padding: 2rem;
   @include flex(row, flex-start, stretch, 2rem);
   min-height: calc(100vh - 6.5vh);
+  background-color: #f8f9fa;
+  
+  @media screen and (max-width: 992px) {
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    display: block;
+    padding: 1rem;
+  }
+  
+  @media screen and (max-width: 480px) {
+    padding: 0.5rem;
+  }
 
   > aside {
     min-width: 19rem;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.257);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     padding: 2rem;
-    @include flex(column, flex-start, stretch, 0.5rem);
+    @include flex(column, flex-start, stretch, 1rem);
+    background-color: white;
+    border-radius: 12px;
+    align-self: flex-start;
+    position: sticky;
+    top: 1rem;
+    
+    @media screen and (max-width: 992px) {
+      min-width: 16rem;
+      padding: 1.5rem;
+    }
+    
+    @media screen and (max-width: 768px) {
+      @include flex(row, space-between, center);
+      flex-wrap: wrap;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      gap: 1.2rem;
+      position: static;
+    }
+    
+    @media screen and (max-width: 480px) {
+      padding: 1rem;
+    }
+    
     > h2 {
       @include heading;
+      font-size: 1.5rem;
+      position: relative;
+      padding-bottom: 0.75rem;
+      margin-bottom: 0.5rem;
+      
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50px;
+        height: 3px;
+        background-color: $color3;
+        border-radius: 3px;
+      }
+      
+      @media screen and (max-width: 768px) {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+        width: 100%;
+      }
     }
 
     > div {
+      background-color: #f8f9fa;
+      padding: 1rem;
+      border-radius: 8px;
+      
+      @media screen and (max-width: 768px) {
+        flex: 1 1 calc(50% - 1rem);
+        min-width: 150px;
+        padding: 0.75rem;
+      }
+      
+      @media screen and (max-width: 480px) {
+        flex: 1 1 100%;
+      }
+      
+      > h4 {
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 0.75rem;
+        display: flex;
+        align-items: center;
+        
+        svg {
+          margin-right: 0.5rem;
+          color: $color3;
+          font-size: 0.9rem;
+        }
+        
+        @media screen and (max-width: 768px) {
+          font-size: 0.9rem;
+          margin-bottom: 0.5rem;
+        }
+      }
+      
+      .price-range-display {
+        font-size: 0.9rem;
+        color: #666;
+        margin-bottom: 0.5rem;
+      }
+      
+      > input[type="range"] {
+        appearance: none;
+        width: 100%;
+        height: 6px;
+        background: #ddd;
+        border-radius: 5px;
+        margin: 0.75rem 0;
+        outline: none;
+        
+        &::-webkit-slider-thumb {
+          appearance: none;
+          width: 18px;
+          height: 18px;
+          background: $color3;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+        
+        &::-moz-range-thumb {
+          width: 18px;
+          height: 18px;
+          background: $color3;
+          border-radius: 50%;
+          cursor: pointer;
+          border: none;
+        }
+      }
+      
       > input,
       > select {
         @include inputStyle(
@@ -21,8 +148,20 @@
           white,
           1px solid rgba(154, 154, 154, 0.38)
         );
-        border-radius: 10px;
-        margin: 0.5rem;
+        border-radius: 8px;
+        margin: 0.5rem 0;
+        transition: border-color 0.2s ease;
+        
+        &:focus {
+          border-color: $color3;
+          box-shadow: 0 0 0 2px rgba($color3, 0.1);
+        }
+        
+        @media screen and (max-width: 768px) {
+          margin: 0.3rem 0;
+          padding: 0.5rem;
+          font-size: 0.9rem;
+        }
       }
     }
   }
@@ -30,41 +169,256 @@
   > main {
     width: 100%;
     padding: 0 2rem;
+    
+    @media screen and (max-width: 992px) {
+      padding: 0 1rem;
+    }
+    
+    @media screen and (max-width: 768px) {
+      padding: 0;
+    }
 
     > h1 {
       @include heading;
+      font-size: 2rem;
+      position: relative;
+      padding-bottom: 0.75rem;
+      margin-bottom: 1.5rem;
+      
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50px;
+        height: 3px;
+        background-color: $color3;
+        border-radius: 3px;
+      }
+      
+      @media screen and (max-width: 768px) {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        
+        &::after {
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
     }
+    
+    .search-input-container {
+      position: relative;
+      margin: 1rem 0 2rem;
+      width: 50%;
+      
+      @media screen and (max-width: 992px) {
+        width: 70%;
+      }
+      
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        margin: 1rem 0 1.5rem;
+      }
+      
+      .search-icon {
+        position: absolute;
+        left: 1.2rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #aaa;
+        font-size: 1rem;
+      }
+      
+      input {
+        @include inputStyle(100%);
+        border-radius: 50px;
+        font-size: 1rem;
+        display: block;
+        padding: 0.75rem 1.5rem 0.75rem 3rem;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+        
+        &:focus {
+          border-color: $color3;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        @media screen and (max-width: 768px) {
+          padding: 0.75rem 1.5rem 0.75rem 3rem;
+          border: 1px solid rgba(212, 212, 212, 0.379);
+        }
+      }
+    }
+
     > input {
-      @include inputStyle(50%);
-      //   padding: 1rem;
-      //   width: 50%;
-      border-radius: 5px;
-      margin: 1rem;
-      font-size: 1rem;
-      display: block;
+      display: none;
     }
 
     .search-product-list {
-      @include flex(row, flex-start, flex-start);
-      flex-wrap: wrap;
-      height: calc(100% - 8rem);
-      overflow-y: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+      
+      @media screen and (max-width: 992px) {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 1rem;
+      }
+      
+      @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      }
+      
+      @media screen and (max-width: 480px) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.8rem;
+      }
+      
+      /* Ensure all grid items are the same height and maintain card dimensions */
+      > a {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      /* Apply minimum height to prevent cards from appearing too short */
+      > a .product-card {
+        min-height: 350px;
+        
+        @media screen and (max-width: 768px) {
+          min-height: 320px;
+        }
+        
+        @media screen and (max-width: 480px) {
+          min-height: 280px;
+        }
+      }
+      
       &::-webkit-scrollbar {
         display: none;
       }
+      
+      .no-results {
+        width: 100%;
+        text-align: center;
+        padding: 3rem;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        
+        p {
+          font-size: 1.1rem;
+          color: #666;
+          margin-bottom: 1.5rem;
+        }
+        
+        button {
+          background-color: $color3;
+          color: white;
+          border: none;
+          border-radius: 50px;
+          padding: 0.7rem 1.5rem;
+          font-size: 0.9rem;
+          font-weight: 500;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          
+          &:hover {
+            background-color: darken($color3, 10%);
+            transform: translateY(-2px);
+          }
+          
+          @media screen and (max-width: 480px) {
+            padding: 0.6rem 1.2rem;
+          }
+        }
+        
+        @media screen and (max-width: 768px) {
+          padding: 2rem;
+          
+          p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+          }
+        }
+        
+        @media screen and (max-width: 480px) {
+          padding: 1.5rem;
+        }
+      }
     }
+    
     article {
       @include flex;
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: white;
+      border-radius: 50px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      
+      @media screen and (max-width: 768px) {
+        margin-top: 1.5rem;
+        padding: 0.8rem 1.2rem;
+      }
+      
+      @media screen and (max-width: 480px) {
+        padding: 0.6rem 1rem;
+        border-radius: 30px;
+      }
+      
+      > span {
+        margin: 0 1.5rem;
+        font-weight: 500;
+        color: #555;
+        
+        @media screen and (max-width: 768px) {
+          margin: 0 1rem;
+        }
+        
+        @media screen and (max-width: 480px) {
+          margin: 0 0.8rem;
+          font-size: 0.9rem;
+        }
+      }
+      
       > button {
         @include flex;
-        @include btn(0.5rem 1rem, $color3, $color1);
-        border-radius: 10px;
+        background-color: $color3;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        
+        &:hover:not(:disabled) {
+          background-color: darken($color3, 10%);
+          transform: translateY(-2px);
+        }
+        
+        @media screen and (max-width: 480px) {
+          padding: 0.5rem 1rem;
+          font-size: 0.85rem;
+        }
+        
         &:disabled {
           cursor: not-allowed;
           opacity: 0.5;
-          color: $color2;
+          background-color: #aaa;
         }
-    
+        
+        svg {
+          margin: 0 0.3rem;
+          font-size: 0.8rem;
+        }
       }
     }
   }

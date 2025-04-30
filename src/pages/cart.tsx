@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { VscError } from "react-icons/vsc";
+import { FaShoppingCart, FaArrowRight } from "react-icons/fa";
 import CartItemCard from "../components/cart-item";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -75,51 +76,63 @@ const Cart = () => {
   }, [cartItems])
 
   return (
-    <div className="cart">
+    <div className="container">
+      <h1 className="cart-page-title">
+        <FaShoppingCart /> Your Shopping Cart
+      </h1>
+      
+      <div className="cart">
+        <main>
+          {
+            cartItems.length > 0 ? cartItems?.map((item, index) =>
+              <CartItemCard cartItem={item} key={index} decrementHandler={decrementHandler} incrementHandler={addToCartHandler} removeHandler={removeFromCartHandler} />
+            ) : <h1>Your cart is empty</h1>
+          }
+        </main>
+        
+        <aside>
+          <h3>Order Summary</h3>
+          <p>
+            <span>Subtotal:</span> <span>${subtotal}</span>
+          </p>
+          <p>
+            <span>Shipping:</span> <span>${shippingCharges}</span>
+          </p>
+          <p>
+            <span>Tax:</span> <span>${tax}</span>
+          </p>
+          <p>
+            <span>Discount:</span> <span className="red">- ${discount}</span>
+          </p>
+          <p>
+            <span>Total:</span> <span>${total}</span>
+          </p>
 
-      <main>
-        {
-          cartItems.length > 0 ? cartItems?.map((item, index) =>
-            <CartItemCard cartItem={item} key={index} decrementHandler={decrementHandler} incrementHandler={addToCartHandler} removeHandler={removeFromCartHandler} />
-          ) : <h1>No Items Added</h1>
-        }
-
-      </main>
-      <aside>
-        <p>
-          Subtotal : ${subtotal}
-        </p>
-        <p>
-          Shipping Charges : ${shippingCharges}
-        </p>
-        <p>
-          Tax : ${tax}
-        </p>
-        <p>
-          Discount : <em className="red">
-            - $ {
-              discount
-            }
-          </em>
-        </p>
-        <p>
-          <b>
-            Total : ${total}
-          </b>
-        </p>
-
-        <input type="text" placeholder="Coupon Code" onChange={(e) => setCouponCode(e.target.value)} />
-        {
-          couponCode && (
-            isValidCouponCode ? <span className="green">${discount} off using the <code>{couponCode}</code> </span> : <span className="red">
-              Invalid Coupon <VscError />
-            </span>
-          )
-        }
-        {
-          cartItems.length > 0 && <Link to={"/shipping"}>Checkout</Link>
-        }
-      </aside>
+          <input 
+            type="text" 
+            placeholder="Enter Coupon Code" 
+            value={couponCode}
+            onChange={(e) => setCouponCode(e.target.value)} 
+          />
+          
+          {
+            couponCode && (
+              isValidCouponCode ? 
+                <span className="green">${discount} off using <code>{couponCode}</code></span> : 
+                <span className="red">
+                  Invalid Coupon <VscError />
+                </span>
+            )
+          }
+          
+          {
+            cartItems.length > 0 && 
+            <Link to={"/shipping"}>
+              Proceed to Checkout <FaArrowRight />
+            </Link>
+          }
+        </aside>
+      </div>
     </div>
   )
 }

@@ -45,6 +45,7 @@ const ProductDetails = () => {
 
     const [comment, setComment] = useState("");
     const [rating, setRating] = useState(0);
+    const [ratingValue, setRatingValue] = useState<number | null>(0);
     const [open, setOpen] = useState(false);
     const { id } = useParams<{ id: string }>();
 
@@ -112,6 +113,7 @@ const ProductDetails = () => {
             setOpen(false);
             setComment("");
             setRating(0);
+            setRatingValue(0);
             // Refetch product details to update the reviews
             refetch();
         } catch (error) {
@@ -125,78 +127,95 @@ const ProductDetails = () => {
             {
                 isLoading ? <Skeleton length={20} /> :
                     <>
-                        <section className="text-gray-600 body-font overflow-hidden">
-                            <div className="container px-5 py-24 mx-auto">
-                                <div className="lg:w-4/5 mx-auto flex flex-wrap">
-                                    <img 
-                                        alt="ecommerce" 
-                                        className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" 
-                                        src={imageUrl} 
-                                    />
-                                    <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-                                        <h2 className="text-sm title-font text-gray-500 tracking-widest">{category}</h2>
-                                        <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">{title}</h1>
-                                        <div className="flex mb-4">
-                                            <span className="flex items-center">
-                                                {[1, 2, 3, 4, 5].map((star) => (
-                                                    <svg 
-                                                        key={star}
-                                                        fill={star <= Math.round(ratings) ? "currentColor" : "none"} 
-                                                        stroke="currentColor" 
-                                                        strokeLinecap="round" 
-                                                        strokeLinejoin="round" 
-                                                        strokeWidth="2" 
-                                                        className="w-4 h-4 text-indigo-500" 
-                                                        viewBox="0 0 24 24"
-                                                    >
-                                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                                                    </svg>
-                                                ))}
-                                                <span className="text-gray-600 ml-3">{numOfReviews} {numOfReviews === 1 ? 'Review' : 'Reviews'}</span>
-                                            </span>
+                        <section className="product-detail-section">
+                            <div className="product-detail-container">
+                                <div className="product-image-wrapper">
+                                    <div className="main-image-container">
+                                        <img 
+                                            alt={title} 
+                                            className="product-main-image" 
+                                            src={imageUrl} 
+                                            width={500}
+                                            height={500}
+                                        />
+                                    </div>
+                                </div>
+                                <div className="product-info">
+                                    <div className="product-category">{category}</div>
+                                    <h1 className="product-title">{title}</h1>
+                                    <div className="product-rating-container">
+                                        <div className="stars-container">
+                                            {[1, 2, 3, 4, 5].map((star) => (
+                                                <svg 
+                                                    key={star}
+                                                    fill={star <= Math.round(ratings) ? "currentColor" : "none"} 
+                                                    stroke="currentColor" 
+                                                    strokeLinecap="round" 
+                                                    strokeLinejoin="round" 
+                                                    strokeWidth="2" 
+                                                    className="star-icon" 
+                                                    viewBox="0 0 24 24"
+                                                >
+                                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                                                </svg>
+                                            ))}
                                         </div>
-                                        <p className="leading-relaxed">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean shorts keytar banjo tattooed umami cardigan.</p>
-                                        <div className="flex mt-3 items-center   border-b-2 border-gray-100 mb-6 py-2 bg-blue-100 w-36 px-4 rounded-lg">
-                                            <span>{stock >= 1 ? `In-Stock✅ : ${stock}` : `Out of Stock 🙆: ${stock}`}</span>
-
-                                        </div>
-                                        <div className="flex">
-                                            <span className="title-font font-medium text-2xl text-gray-900">${price}</span>
-                                            <button 
-                                                className="flex ml-auto text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-blue-700 rounded" 
-                                                onClick={() => addToCartHandler({ 
-                                                    productId: id!, 
-                                                    image: imageUrl, 
-                                                    stock, 
-                                                    price, 
-                                                    title, 
-                                                    quantity: 1 
-                                                })}
-                                            >
-                                                Add to Cart
-                                            </button>
-                                        </div>
+                                        <span className="review-count">{numOfReviews} {numOfReviews === 1 ? 'Review' : 'Reviews'}</span>
+                                    </div>
+                                    <div className="product-description">
+                                        <p>Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean shorts keytar banjo tattooed umami cardigan.</p>
+                                    </div>
+                                    <div className="product-stock-status">
+                                        {stock >= 1 ? (
+                                            <div className="in-stock">
+                                                <span className="status-icon">✅</span>
+                                                <span className="status-text">In Stock</span>
+                                                <span className="stock-count">({stock} available)</span>
+                                            </div>
+                                        ) : (
+                                            <div className="out-of-stock">
+                                                <span className="status-icon">❌</span>
+                                                <span className="status-text">Out of Stock</span>
+                                            </div>
+                                        )}
+                                    </div>
+                                    <div className="product-actions">
+                                        <div className="product-price">${price}</div>
+                                        <button 
+                                            className="add-to-cart-button" 
+                                            onClick={() => addToCartHandler({ 
+                                                productId: id!, 
+                                                image: imageUrl, 
+                                                stock, 
+                                                price, 
+                                                title, 
+                                                quantity: 1 
+                                            })}
+                                            disabled={stock <= 0}
+                                        >
+                                            {stock > 0 ? 'Add to Cart' : 'Out of Stock'}
+                                        </button>
                                     </div>
                                 </div>
                             </div>
                         </section>
 
-                        <section className="text-gray-600 body-font">
-                            <div className="container px-5 py-8 mx-auto">
-                                <div className="flex h-16 items-center justify-between px-2 mb-2">
-                                    <h1 className="text-3xl font-bold title-font text-gray-900">Reviews & Ratings</h1>
+                        <section className="product-reviews-section">
+                            <div className="reviews-container">
+                                <div className="reviews-header">
+                                    <h2 className="reviews-title">Reviews & Ratings</h2>
                                     {
                                         user?._id ? 
                                             <button 
-                                                className="flex ml-auto text-white bg-blue-600 border-0 px-6 focus:outline-none hover:bg-blue-700 rounded text-center py-2" 
+                                                className="write-review-button" 
                                                 onClick={submitReviewToggle} 
                                             >
-                                                Add Review
+                                                Write a Review
                                             </button> 
                                             : 
                                             <Link 
                                                 to={"/login"} 
-                                                className="flex ml-auto text-white bg-blue-600 border-0 px-6 focus:outline-none hover:bg-blue-700 rounded text-center py-2"
+                                                className="login-to-review-button"
                                             >
                                                 Login to Add Review
                                             </Link>
@@ -206,28 +225,33 @@ const ProductDetails = () => {
                                     aria-labelledby="simple-dialog-title"
                                     open={open}
                                     onClose={submitReviewToggle}
+                                    className="review-dialog"
                                 >
-                                    <DialogTitle className="text-2xl font-bold">Submit Review</DialogTitle>
-                                    <DialogContent className="submitDialog p-4" style={{ minWidth: '400px' }}>
-                                        <div className="mb-4">
-                                            <p className="mb-2 text-gray-700">Your Rating</p>
-                                            <div className="flex items-center">
+                                    <DialogTitle className="review-dialog-title">Submit Review</DialogTitle>
+                                    <DialogContent className="review-dialog-content">
+                                        <div className="rating-container">
+                                            <p className="rating-label">Your Rating</p>
+                                            <div className="rating-input-container">
                                                 <Rating
                                                     onChange={(_, newValue) => {
                                                         setRating(newValue!);
+                                                        setRatingValue(newValue);
                                                     }}
                                                     value={rating}
                                                     size="large"
                                                     precision={0.5}
+                                                    className="rating-stars"
                                                 />
-                                                <span className="ml-2 text-gray-600">{rating ? `(${rating})` : ''}</span>
+                                                {ratingValue !== null && (
+                                                    <span className="rating-value">{ratingValue} out of 5</span>
+                                                )}
                                             </div>
                                         </div>
 
-                                        <div className="mb-2">
-                                            <p className="mb-2 text-gray-700">Your Review</p>
+                                        <div className="comment-container">
+                                            <p className="comment-label">Your Review</p>
                                             <textarea
-                                                className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                                className="comment-textarea"
                                                 name="comment"
                                                 cols={30}
                                                 rows={5}
@@ -237,17 +261,17 @@ const ProductDetails = () => {
                                             ></textarea>
                                         </div>
                                     </DialogContent>
-                                    <DialogActions className="p-4">
+                                    <DialogActions className="review-dialog-actions">
                                         <Button 
                                             color="warning" 
                                             onClick={submitReviewToggle} 
-                                            className="px-4 py-2"
+                                            className="cancel-button"
                                         >
                                             Cancel
                                         </Button>
                                         <Button 
                                             onClick={reviewSubmitHandler} 
-                                            className="bg-blue-600 text-white hover:bg-blue-700 px-4 py-2"
+                                            className="submit-button"
                                             disabled={!rating || reviewSubmitting}
                                         >
                                             {reviewSubmitting ? "Submitting..." : "Submit Review"}
@@ -256,7 +280,7 @@ const ProductDetails = () => {
                                 </Dialog>
 
                                 {reviews && reviews.length > 0 ? (
-                                    <div className="flex flex-wrap -m-4">
+                                    <div className="reviews-list">
                                         {reviews.map((review: Review, index: number) => {
                                             // Handle Cloudinary or local image URL
                                             const userImageUrl = review.user.image && 
@@ -265,13 +289,13 @@ const ProductDetails = () => {
                                                     : `${server}/${review.user.image}`);
                                                     
                                             return (
-                                                <div className="p-4 md:w-1/2 w-full" key={index}>
-                                                    <div className="h-full bg-gray-100 p-8 rounded shadow-sm hover:shadow-md transition-shadow">
-                                                        <div className="flex justify-between items-center mb-4">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-5 h-5 text-gray-400" viewBox="0 0 975.036 975.036">
+                                                <div className="review-item" key={index}>
+                                                    <div className="review-card">
+                                                        <div className="review-header">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="quote-icon" viewBox="0 0 975.036 975.036">
                                                                 <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
                                                             </svg>
-                                                            <div className="flex items-center">
+                                                            <div className="review-rating">
                                                                 {[1, 2, 3, 4, 5].map((star) => (
                                                                     <svg 
                                                                         key={star}
@@ -280,26 +304,26 @@ const ProductDetails = () => {
                                                                         strokeLinecap="round" 
                                                                         strokeLinejoin="round" 
                                                                         strokeWidth="2" 
-                                                                        className="w-4 h-4 text-indigo-500" 
+                                                                        className="review-star" 
                                                                         viewBox="0 0 24 24"
                                                                     >
                                                                         <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
                                                                     </svg>
                                                                 ))}
-                                                                <span className="text-gray-500 text-xs ml-1">({review.rating})</span>
+                                                                <span className="review-rating-value">({review.rating})</span>
                                                             </div>
                                                         </div>
-                                                        <p className="leading-relaxed mb-6">{review.comment}</p>
-                                                        <div className="inline-flex items-center">
+                                                        <p className="review-comment">{review.comment}</p>
+                                                        <div className="reviewer-info">
                                                             <img 
-                                                                alt="testimonial" 
+                                                                alt="reviewer" 
                                                                 src={userImageUrl || "https://via.placeholder.com/100"} 
-                                                                className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center border-2 border-indigo-100" 
+                                                                className="reviewer-avatar" 
                                                             />
-                                                            <span className="flex-grow flex flex-col pl-4">
-                                                                <span className="title-font font-medium text-gray-900">{review.user.name}</span>
-                                                                <span className="text-gray-500 text-sm">Customer</span>
-                                                            </span>
+                                                            <div className="reviewer-details">
+                                                                <span className="reviewer-name">{review.user.name}</span>
+                                                                <span className="reviewer-title">Customer</span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -307,9 +331,9 @@ const ProductDetails = () => {
                                         })}
                                     </div>
                                 ) : (
-                                    <div className="text-center my-8 mt-12 text-2xl p-8 bg-gray-50 rounded-lg">
-                                        <p>No Reviews Yet</p>
-                                        <p className="text-base text-gray-500 mt-2">Be the first to review this product!</p>
+                                    <div className="no-reviews">
+                                        <p className="no-reviews-title">No Reviews Yet</p>
+                                        <p className="no-reviews-subtitle">Be the first to review this product!</p>
                                     </div>
                                 )}
                             </div>
