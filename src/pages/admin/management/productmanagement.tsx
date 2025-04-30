@@ -1,5 +1,5 @@
 import { ChangeEvent, FormEvent, useEffect, useState } from "react";
-import { FaTrash } from "react-icons/fa";
+import { FaTrash, FaImage } from "react-icons/fa";
 import AdminSidebar from "../../../components/admin/AdminSidebar";
 import { UserReducerInitialState } from "../../../types/reducer-types";
 import { useSelector } from "react-redux";
@@ -7,6 +7,7 @@ import { Navigate, useNavigate, useParams } from "react-router-dom";
 import { useDeleteProductMutation, useProductDetailsQuery, useUpdateProductMutation } from "../../../redux/api/ProductAPI";
 import { Skeleton } from "../../../components/loader";
 import { responseToast } from "../../../utils/features";
+import { toast } from "react-hot-toast";
 
 const Productmanagement = () => {
   const { user } = useSelector((state: { userReducer: UserReducerInitialState }) => state.userReducer)
@@ -14,6 +15,7 @@ const Productmanagement = () => {
   const { id } = useParams()
   const navigate = useNavigate()
   const { data, isLoading, isError } = useProductDetailsQuery(id!)
+  const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
 
   const { category, images, price, stock, title } = data?.product || {
     title: "",
@@ -56,21 +58,29 @@ const Productmanagement = () => {
 
   const submitHandler = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setIsSubmitting(true);
 
-    const formData = new FormData();
+    try {
+      const formData = new FormData();
 
-    if (titleUpdate) formData.set("title", titleUpdate);
-    if (categoryUpdate) formData.set("category", categoryUpdate);
-    if (ImageFile) formData.set("image", ImageFile);
-    if (priceUpdate) formData.set("price", priceUpdate.toString());
-    if (stockUpdate) formData.set("stock", stockUpdate.toString());
-    const res = await updateProduct({ formData, userId: user?._id!, productId: id! })
-
-    responseToast(res, navigate, "/admin/product")
+      if (titleUpdate) formData.set("title", titleUpdate);
+      if (categoryUpdate) formData.set("category", categoryUpdate);
+      if (ImageFile) formData.set("image", ImageFile);
+      if (priceUpdate) formData.set("price", priceUpdate.toString());
+      if (stockUpdate !== undefined) formData.set("stock", stockUpdate.toString());
+      
+      const res = await updateProduct({ formData, userId: user?._id!, productId: id! })
+      responseToast(res, navigate, "/admin/product");
+    } catch (error) {
+      console.error(error);
+      toast.error("Something went wrong!");
+    } finally {
+      setIsSubmitting(false);
+    }
   }
+
   const deleteHandler = async () => {
     const res = await deleteProduct({ userId: user?._id!, productId: data?.product?._id! })
-
     responseToast(res, navigate, "/admin/product")
   }
 
@@ -106,7 +116,11 @@ const Productmanagement = () => {
               <h3>${price}</h3>
             </section>
             <article>
-              <button className="product-delete-btn" onClick={deleteHandler}>
+              <button 
+                className="product-delete-btn" 
+                onClick={deleteHandler}
+                title="Delete Product"
+              >
                 <FaTrash />
               </button>
               <form onSubmit={submitHandler}>
@@ -151,11 +165,28 @@ const Productmanagement = () => {
 
                 <div>
                   <label>Image</label>
-                  <input type="file" onChange={changeImageHandler} />
+                  <input 
+                    type="file" 
+                    onChange={changeImageHandler} 
+                    accept="image/*" 
+                  />
                 </div>
 
-                {ImageUpdate && <img src={ImageUpdate} alt="New Image" />}
-                <button type="submit" style={{ margin: "10px 10px 80px 10px" }}>Update</button>
+                {ImageUpdate ? (
+                  <img src={ImageUpdate} alt="Product Preview" />
+                ) : (
+                  <div className="empty-image-placeholder">
+                    <FaImage />
+                    <p>No new image selected</p>
+                  </div>
+                )}
+                
+                <button 
+                  type="submit"
+                  disabled={isSubmitting}
+                >
+                  {isSubmitting ? "Updating..." : "Update"}
+                </button>
               </form>
             </article>
           </>

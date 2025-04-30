@@ -6,6 +6,7 @@ import { useNewProductMutation } from "../../../redux/api/ProductAPI";
 import toast from "react-hot-toast";
 import { responseToast } from "../../../utils/features";
 import { useNavigate } from "react-router-dom";
+import { FaImage } from "react-icons/fa";
 
 const NewProduct = () => {
   const { user } = useSelector((state: { userReducer: UserReducerInitialState }) => state.userReducer)
@@ -114,13 +115,20 @@ const NewProduct = () => {
             <div>
               <label>Image</label>
               <input
-                required type="file" onChange={changeImageHandler} />
+                required type="file" onChange={changeImageHandler} accept="image/*" />
             </div>
 
-            {imagePrev && <img src={imagePrev} alt="New Image" />}
+            {imagePrev ? (
+              <img src={imagePrev} alt="Product Preview" />
+            ) : (
+              <div className="empty-image-placeholder">
+                <FaImage />
+                <p>Product image preview</p>
+              </div>
+            )}
+            
             <button 
               type="submit" 
-              style={{ margin: "5px 10px 80px 10px" }}
               disabled={isSubmitting}
             >
               {isSubmitting ? "Creating..." : "Create"}
