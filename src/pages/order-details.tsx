@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useOrderDetailsQuery } from '../redux/api/OrderAPI';
 import { Skeleton } from '../components/loader';
 import toast from 'react-hot-toast';
-import { FaShoppingBag, FaTruck, FaCalendarAlt, FaMapMarkerAlt, FaBoxOpen, FaArrowRight } from 'react-icons/fa';
+import { FaShoppingBag, FaMapMarkerAlt, FaBoxOpen, FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { UserReducerInitialState } from '../types/reducer-types';

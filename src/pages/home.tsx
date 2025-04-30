@@ -7,7 +7,7 @@ import { CartItem } from "../types/types"
 import { useDispatch, useSelector } from "react-redux"
 import { addToCart } from "../redux/reducers/cartReducers"
 import { CartReducerInitialState } from "../types/reducer-types"
-import { FaArrowRight, FaShippingFast, FaMobile, FaDesktop, FaBatteryFull } from "react-icons/fa"
+import { FaArrowRight, FaMobile, FaDesktop, FaBatteryFull } from "react-icons/fa"
 
 const Home = () => {
 

@@ -98,10 +98,10 @@ const CheckOutForm = () => {
                         {cartItems.map(item => (
                             <div className="order-item" key={item.productId}>
                                 <div className="item-image">
-                                    <img src={item.image} alt={item.name} />
+                                    <img src={item.image} alt={item.title} />
                                 </div>
                                 <div className="item-details">
-                                    <div className="item-name">{item.name}</div>
+                                    <div className="item-name">{item.title}</div>
                                     <div className="item-quantity">Qty: {item.quantity}</div>
                                 </div>
                                 <div className="item-price">
