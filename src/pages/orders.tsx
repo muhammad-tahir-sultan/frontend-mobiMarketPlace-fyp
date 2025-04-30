@@ -45,7 +45,6 @@ const Orders = () => {
           <div className="orders-table">
             <div className="table-header">
               <div className="header-id">Order ID</div>
-              <div className="header-quantity">Quantity</div>
               <div className="header-discount">Discount</div>
               <div className="header-amount">Amount</div>
               <div className="header-status">Status</div>
@@ -54,8 +53,7 @@ const Orders = () => {
             
             {orders.map((order) => (
               <div className="order-row" key={order._id}>
-                <div className="order-id">{order._id}</div>
-                <div className="order-quantity">{order.quantity}</div>
+                <div className="order-id">{order._id.substring(0, 6)}</div>
                 <div className="order-discount">PKR {order.discount.toLocaleString()}</div>
                 <div className="order-amount">PKR {order.total.toLocaleString()}</div>
                 <div className="order-status">

@@ -70,7 +70,7 @@ const OrderDetails = () => {
         {/* Receipt Title */}
         <div className="receipt-title-section">
           <h3>Receipt</h3>
-          <div className="receipt-voucher">Receipt Voucher: {orderDetails._id.substring(0, 10)}</div>
+          <div className="receipt-voucher">Receipt Voucher: {orderDetails._id.substring(0, 6)}</div>
         </div>
         
         {/* Order Details Section - Now First */}
@@ -129,9 +129,7 @@ const OrderDetails = () => {
               <FaMapMarkerAlt /> Shipping Address:
             </div>
             <div className="address-text">
-              <span>{orderDetails.shippingInfo.address}</span>
-              <span>{orderDetails.shippingInfo.city}, {orderDetails.shippingInfo.state} {orderDetails.shippingInfo.postalCode}</span>
-              <span>{orderDetails.shippingInfo.country}</span>
+              {`${orderDetails.shippingInfo.address}, ${orderDetails.shippingInfo.city}, ${orderDetails.shippingInfo.state} ${orderDetails.shippingInfo.postalCode}, ${orderDetails.shippingInfo.country}`}
             </div>
           </div>
         </div>

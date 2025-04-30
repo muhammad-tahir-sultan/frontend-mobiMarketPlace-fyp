@@ -113,7 +113,7 @@
     
     .table-header {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       background-color: #f1f3f5;
       padding: 1rem 1.5rem;
       font-weight: 600;
@@ -122,7 +122,7 @@
       @media (max-width: 991px) {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         
-        .header-discount, .header-quantity {
+        .header-discount {
           display: none;
         }
       }
@@ -138,7 +138,7 @@
     
     .order-row {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       padding: 1.25rem 1.5rem;
       align-items: center;
       border-bottom: 1px solid #f1f3f5;
@@ -155,7 +155,7 @@
       @media (max-width: 991px) {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         
-        .order-discount, .order-quantity {
+        .order-discount {
           display: none;
         }
       }
@@ -778,6 +778,10 @@
       
       .address-text {
         color: #777;
+        line-height: 1.5;
+        max-width: 100%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
         
         span {
           display: block;
