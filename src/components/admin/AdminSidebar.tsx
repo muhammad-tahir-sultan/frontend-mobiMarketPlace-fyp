@@ -59,7 +59,7 @@ const AdminSidebar = () => {
             : {}
         }
       >
-        <Link to={"/"}> <img src="/mobile-logo.png" alt="logo" className="h-40 w-40" /></Link>
+        <Link to={"/"}> <img src="/logo.jpg" alt="logo" className="h-40 w-40" /></Link>
         <DivOne location={location} />
         <DivTwo location={location} />
         <DivThree location={location} />
@@ -136,24 +136,14 @@ const DivThree = ({ location }: { location: Location }) => (
   <div>
     <h5>Apps</h5>
     <ul>
-      <Li
-        url="/admin/app/stopwatch"
-        text="Stopwatch"
-        Icon={FaStopwatch}
-        location={location}
-      />
+
       <Li
         url="/admin/app/coupon"
         text="Coupon"
         Icon={RiCoupon3Fill}
         location={location}
       />
-      <Li
-        url="/admin/app/toss"
-        text="Toss"
-        Icon={FaGamepad}
-        location={location}
-      />
+    
     </ul>
   </div>
 );
