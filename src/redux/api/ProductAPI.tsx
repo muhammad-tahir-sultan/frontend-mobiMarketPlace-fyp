@@ -10,14 +10,26 @@ export const productAPI = createApi({
         allProducts: builder.query<AllProductsResponse, string>({ query: (id) => `admin-products?id=${id}`, providesTags: ["product"] }),
         allCategories: builder.query<AllCategoriesResponse, string>({ query: () => `categories`, providesTags: ["product"] }),
         searchProducts: builder.query<SearchProductsResponse, SearchProductsRequest>({
-            query: ({ price, category, page, search, sort }) => {
-                let base = `all?search=${search}&page=${page}`
-                if (price) base += `&price=${price}`;
-                if (category) base += `&category=${category}`;
-                if (sort) base += `&sort=${sort}`;
-
-                return base
-            }, providesTags: ["product"]
+            query: ({ price, category, page, search }) => {
+                let url = `all?search=${search}&page=${page}`;
+                if (price) url += `&price=${price}`;
+                if (category) url += `&category=${category}`;
+                
+                console.log("Search API request with URL:", url);
+                
+                return url;
+            }, 
+            providesTags: ["product"],
+            forceRefetch: ({ currentArg, previousArg }) => {
+                if (!previousArg) return true;
+                
+                return (
+                    currentArg?.category !== previousArg?.category ||
+                    currentArg?.price !== previousArg?.price ||
+                    currentArg?.search !== previousArg?.search ||
+                    currentArg?.page !== previousArg?.page
+                );
+            }
         }),
         newProduct: builder.mutation<MessageResponse, NewProductRequest>({
             query: ({ formData, id }) => ({

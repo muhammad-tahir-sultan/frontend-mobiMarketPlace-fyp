@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { CartItem } from "../types/types"
 import { addToCart } from "../redux/reducers/cartReducers"
 import { CartReducerInitialState } from "../types/reducer-types"
-import { FaSearch, FaSort, FaFilter, FaTag, FaChevronLeft, FaChevronRight } from "react-icons/fa"
+import { FaSearch, FaFilter, FaTag, FaChevronLeft, FaChevronRight } from "react-icons/fa"
 
 const Search = () => {
 
@@ -17,11 +17,10 @@ const Search = () => {
 
   const [search, setSearch] = useState("")
   const [category, setCategory] = useState("")
-  const [sort, setSort] = useState("")
   const [maxPrice, setMaxPrice] = useState(700000)
   const [page, setPage] = useState(1)
 
-  const { isLoading: searchLoading, data: searchedData, isError: productIsError } = useSearchProductsQuery({ search, category, sort, price: maxPrice, page })
+  const { isLoading: searchLoading, data: searchedData, isError: productIsError } = useSearchProductsQuery({ search, category, price: maxPrice, page })
 
   if (isError) {
     const err = error as CustomEror;
@@ -68,16 +67,6 @@ const Search = () => {
     <div className="product-search-page">
       <aside>
         <h2>Filter Products</h2>
-        <div>
-          <h4><FaSort /> Sort By</h4>
-          <select value={sort} onChange={(e) => setSort(e.target.value)}>
-            <option value="">None</option>
-            <option value="price-asc">Price: Low to High</option>
-            <option value="price-desc">Price: High to Low</option>
-            <option value="rating-asc">Rating: Low to High</option>
-            <option value="rating-desc">Rating: High to Low</option>
-          </select>
-        </div>
 
         <div>
           <h4><FaFilter /> Price Range</h4>
@@ -134,7 +123,6 @@ const Search = () => {
                 <button onClick={() => {
                   setSearch("");
                   setCategory("");
-                  setSort("");
                   setMaxPrice(700000);
                 }}>Clear Filters</button>
               </div>

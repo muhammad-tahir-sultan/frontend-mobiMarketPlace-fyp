@@ -44,7 +44,6 @@ export type SearchProductsRequest = {
     category: string;
     page: number;
     search: string;
-    sort: string;
 }
 
 
