@@ -77,7 +77,7 @@ const Cart = () => {
 
   return (
     <div className="container">
-      <h1 className="cart-page-title">
+      <h1 className="cart-page-title" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
         <FaShoppingCart /> Your Shopping Cart
       </h1>
       

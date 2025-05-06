@@ -54,12 +54,13 @@ const ProductDetails = () => {
 
 
 
-    const { category, images, price, stock, title, reviews, ratings = 0, numOfReviews = 0 } = data?.product || {
+    const { category, images, price, stock, title, description = "", reviews, ratings = 0, numOfReviews = 0 } = data?.product || {
         title: "",
         images: [],
         price: 0,
         stock: 0,
         category: "",
+        description: "",
         reviews: [],
         ratings: 0,
         numOfReviews: 0
@@ -163,7 +164,11 @@ const ProductDetails = () => {
                                         <span className="review-count">{numOfReviews} {numOfReviews === 1 ? 'Review' : 'Reviews'}</span>
                                     </div>
                                     <div className="product-description">
-                                        <p>Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean shorts keytar banjo tattooed umami cardigan.</p>
+                                        {description ? (
+                                            <div dangerouslySetInnerHTML={{ __html: description }} />
+                                        ) : (
+                                            <p>No description available for this product.</p>
+                                        )}
                                     </div>
                                     <div className="product-stock-status">
                                         {stock >= 1 ? (

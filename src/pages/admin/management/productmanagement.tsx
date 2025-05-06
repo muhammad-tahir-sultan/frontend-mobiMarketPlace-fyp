@@ -4,10 +4,17 @@ import AdminSidebar from "../../../components/admin/AdminSidebar";
 import { UserReducerInitialState } from "../../../types/reducer-types";
 import { useSelector } from "react-redux";
 import { Navigate, useNavigate, useParams } from "react-router-dom";
-import { useDeleteProductMutation, useProductDetailsQuery, useUpdateProductMutation } from "../../../redux/api/ProductAPI";
+import { 
+  useDeleteProductMutation, 
+  useProductDetailsQuery, 
+  useUpdateProductMutation,
+  useUpdateProductDetailsMutation
+} from "../../../redux/api/ProductAPI";
 import { Skeleton } from "../../../components/loader";
 import { responseToast } from "../../../utils/features";
 import { toast } from "react-hot-toast";
+import ReactQuill from "react-quill";
+import "react-quill/dist/quill.snow.css";
 
 const Productmanagement = () => {
   const { user } = useSelector((state: { userReducer: UserReducerInitialState }) => state.userReducer)
@@ -17,7 +24,7 @@ const Productmanagement = () => {
   const { data, isLoading, isError } = useProductDetailsQuery(id!)
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
 
-  const { category, images, price, stock, title } = data?.product || {
+  const { category, images, price, stock, title, description = "" } = data?.product || {
     title: "",
     images: [],
     price: 0,
@@ -34,11 +41,13 @@ const Productmanagement = () => {
   const [stockUpdate, setStockUpdate] = useState<number>(stock);
   const [titleUpdate, setTitleUpdate] = useState<string>(title);
   const [categoryUpdate, setCategoryUpdate] = useState<string>(category);
+  const [descriptionUpdate, setDescriptionUpdate] = useState<string>(description);
   const [ImageUpdate, setImageUpdate] = useState<string>("");
-  const [ImageFile, setImageFile] = useState<File>();
+  const [imageFile, setImageFile] = useState<File>();
 
-  const [updateProduct] = useUpdateProductMutation()
-  const [deleteProduct] = useDeleteProductMutation()
+  const [updateProduct] = useUpdateProductMutation();
+  const [updateProductDetails] = useUpdateProductDetailsMutation();
+  const [deleteProduct] = useDeleteProductMutation();
 
   const changeImageHandler = (e: ChangeEvent<HTMLInputElement>) => {
     const file: File | undefined = e.target.files?.[0];
@@ -61,15 +70,51 @@ const Productmanagement = () => {
     setIsSubmitting(true);
 
     try {
-      const formData = new FormData();
-
-      if (titleUpdate) formData.set("title", titleUpdate);
-      if (categoryUpdate) formData.set("category", categoryUpdate);
-      if (ImageFile) formData.set("image", ImageFile);
-      if (priceUpdate) formData.set("price", priceUpdate.toString());
-      if (stockUpdate !== undefined) formData.set("stock", stockUpdate.toString());
+      // Split the update process into two steps: image upload and details update
       
-      const res = await updateProduct({ formData, userId: user?._id!, productId: id! })
+      // Step 1: Only handle image upload if a new image was selected
+      if (imageFile) {
+        console.log("Handling image upload first...");
+        const imageFormData = new FormData();
+        imageFormData.set("image", imageFile);
+        
+        // Send minimal data required with image
+        imageFormData.set("title", titleUpdate);
+        imageFormData.set("price", priceUpdate.toString());
+        imageFormData.set("stock", stockUpdate.toString());
+        imageFormData.set("category", categoryUpdate);
+        
+        const imageRes = await updateProduct({ 
+          formData: imageFormData, 
+          userId: user?._id!, 
+          productId: id! 
+        });
+        
+        if (!imageRes.data?.success) {
+          toast.error("Failed to update product image");
+          setIsSubmitting(false);
+          return;
+        }
+      }
+      
+      // Step 2: Update product details including description
+      console.log("Updating product details...");
+      console.log("Description to send:", descriptionUpdate);
+      
+      const productData = {
+        title: titleUpdate,
+        category: categoryUpdate,
+        price: priceUpdate,
+        stock: stockUpdate,
+        description: descriptionUpdate
+      };
+      
+      const res = await updateProductDetails({ 
+        productData, 
+        userId: user?._id!, 
+        productId: id! 
+      });
+      
       responseToast(res, navigate, "/admin/product");
     } catch (error) {
       console.error(error);
@@ -93,8 +138,20 @@ const Productmanagement = () => {
         : "");
       setCategoryUpdate(data.product.category);
       setTitleUpdate(data.product.title);
+      setDescriptionUpdate(data.product.description || "");
     }
   }, [data])
+
+  const modules = {
+    toolbar: [
+      [{ header: [1, 2, 3, 4, 5, 6, false] }],
+      ["bold", "italic", "underline", "strike"],
+      [{ list: "ordered" }, { list: "bullet" }],
+      ["link"],
+      [{ color: [] }, { background: [] }],
+      ["clean"],
+    ],
+  };
 
   if (isError) return <Navigate to={"/404"} />
 
@@ -160,6 +217,18 @@ const Productmanagement = () => {
                     placeholder="eg. laptop, camera etc"
                     value={categoryUpdate}
                     onChange={(e) => setCategoryUpdate(e.target.value)}
+                  />
+                </div>
+
+                <div>
+                  <label>Description</label>
+                  <ReactQuill
+                    theme="snow"
+                    value={descriptionUpdate}
+                    onChange={setDescriptionUpdate}
+                    modules={modules}
+                    placeholder="Write product description here..."
+                    style={{ height: "200px", marginBottom: "60px" }}
                   />
                 </div>
 

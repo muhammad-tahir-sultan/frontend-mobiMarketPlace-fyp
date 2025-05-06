@@ -169,29 +169,80 @@ a {
         color: $color3;
       }
     }
-  }
-
-  dialog {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    width: 100px;
-    position: absolute;
-    left: calc(100% - 100px);
-    top: 8%;
-    z-index: 9999;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-    @media (max-width: 768px) {
-      position: fixed;
-      left: auto;
-      right: 1rem;
-      top: auto;
+    
+    .user-menu-container {
+      position: relative;
     }
-
-    >div {
-      @include flex(column, flex-start, center, 0.25rem);
+    
+    .user-menu-button {
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+      background-color: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0.1rem;
+      
+      &:hover {
+        color: $color3;
+      }
+    }
+    
+    .user-dropdown {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      margin-top: 0.5rem;
+      background-color: white;
+      border-radius: 6px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      min-width: 180px;
+      z-index: 1000;
+      overflow: hidden;
+      
+      @media (max-width: 768px) {
+        position: relative;
+        width: 100%;
+        box-shadow: none;
+        border: 1px solid #eee;
+        margin-top: 0.5rem;
+      }
+      
+      .dropdown-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.75rem 1rem;
+        color: $color2;
+        font-size: 0.95rem;
+        letter-spacing: 0.5px;
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #f5f5f5;
+        
+        &:hover {
+          background-color: #f9f9f9;
+          color: $color3;
+        }
+        
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+      
+      .logout-button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #e53935;
+        
+        &:hover {
+          background-color: #ffeeee;
+          color: #c62828;
+        }
+      }
     }
   }
 }

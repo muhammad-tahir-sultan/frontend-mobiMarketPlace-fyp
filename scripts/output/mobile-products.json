@@ -1,0 +1,1068 @@
+[
+  {
+    "title": "Samsung Galaxy Note 18",
+    "price": 699.99,
+    "description": "\n<h2>Samsung Galaxy Note 18 - 6GB RAM, 64GB Storage</h2>\n\n<p>Experience the power and style of the Samsung Galaxy Note 18. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.1\" OLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Snapdragon 695 processor with 6GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 64GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 50MP main camera, 12MP ultrawide camera, 10MP telephoto camera</li>\n  <li><strong>Selfie Camera:</strong> 12MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 6000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> White (other colors may be available)</li>\n</ul>\n\n<p>The Samsung Galaxy Note 18 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Samsung Galaxy Note 18 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Samsung</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Galaxy Note 18</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Snapdragon 695</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">64GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.1\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">OLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">10MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">White</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 68,
+    "images": [
+      {
+        "public_id": "mobiles/samsung_galaxy_note_18_0",
+        "url": "https://placehold.co/800x800/E91E63/FFFFFF?text=Samsung%20Galaxy%20Note%2018"
+      },
+      {
+        "public_id": "mobiles/samsung_galaxy_note_18_1",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=Samsung%20Galaxy%20Note%2018"
+      }
+    ],
+    "specifications": {
+      "brand": "Samsung",
+      "model": "Galaxy Note 18",
+      "processor": "Snapdragon 695",
+      "ram": "6GB",
+      "storage": "64GB",
+      "camera": {
+        "main": "50MP",
+        "ultrawide": "12MP",
+        "telephoto": "10MP",
+        "selfie": "12MP"
+      },
+      "battery": "6000mAh",
+      "screen": "6.1\" OLED",
+      "color": "White"
+    }
+  },
+  {
+    "title": "Apple iPhone SE 27",
+    "price": 1899.99,
+    "description": "\n<h2>Apple iPhone SE 27 - 12GB RAM, 64GB Storage</h2>\n\n<p>Experience the power and style of the Apple iPhone SE 27. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.1\" IPS LCD screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Google Tensor G2 processor with 12GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 64GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 64MP main camera, 8MP ultrawide camera</li>\n  <li><strong>Selfie Camera:</strong> 16MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 5000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Gold (other colors may be available)</li>\n</ul>\n\n<p>The Apple iPhone SE 27 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Apple iPhone SE 27 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Apple</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">iPhone SE 27</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Google Tensor G2</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">64GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.1\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">IPS LCD</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">64MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">8MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">N/A</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">16MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Gold</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 45,
+    "images": [
+      {
+        "public_id": "mobiles/apple_iphone_se_27_0",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=Apple%20iPhone%20SE%2027"
+      },
+      {
+        "public_id": "mobiles/apple_iphone_se_27_1",
+        "url": "https://placehold.co/800x800/7CB342/FFFFFF?text=Apple%20iPhone%20SE%2027"
+      },
+      {
+        "public_id": "mobiles/apple_iphone_se_27_2",
+        "url": "https://placehold.co/800x800/E91E63/FFFFFF?text=Apple%20iPhone%20SE%2027"
+      }
+    ],
+    "specifications": {
+      "brand": "Apple",
+      "model": "iPhone SE 27",
+      "processor": "Google Tensor G2",
+      "ram": "12GB",
+      "storage": "64GB",
+      "camera": {
+        "main": "64MP",
+        "ultrawide": "8MP",
+        "telephoto": null,
+        "selfie": "16MP"
+      },
+      "battery": "5000mAh",
+      "screen": "6.1\" IPS LCD",
+      "color": "Gold"
+    }
+  },
+  {
+    "title": "ASUS ROG Phone 19",
+    "price": 1249.99,
+    "description": "\n<h2>ASUS ROG Phone 19 - 8GB RAM, 128GB Storage</h2>\n\n<p>Experience the power and style of the ASUS ROG Phone 19. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 5.4\" IPS LCD screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Google Tensor G3 processor with 8GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 128GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 200MP main camera, 50MP ultrawide camera, 10MP telephoto camera</li>\n  <li><strong>Selfie Camera:</strong> 32MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 5500mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Pink (other colors may be available)</li>\n</ul>\n\n<p>The ASUS ROG Phone 19 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>ASUS ROG Phone 19 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">ASUS</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">ROG Phone 19</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Google Tensor G3</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">8GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">128GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5.4\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">IPS LCD</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">200MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">10MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">32MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5500mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Pink</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 88,
+    "images": [
+      {
+        "public_id": "mobiles/asus_rog_phone_19_0",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=ASUS%20ROG%20Phone%2019"
+      },
+      {
+        "public_id": "mobiles/asus_rog_phone_19_1",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=ASUS%20ROG%20Phone%2019"
+      }
+    ],
+    "specifications": {
+      "brand": "ASUS",
+      "model": "ROG Phone 19",
+      "processor": "Google Tensor G3",
+      "ram": "8GB",
+      "storage": "128GB",
+      "camera": {
+        "main": "200MP",
+        "ultrawide": "50MP",
+        "telephoto": "10MP",
+        "selfie": "32MP"
+      },
+      "battery": "5500mAh",
+      "screen": "5.4\" IPS LCD",
+      "color": "Pink"
+    }
+  },
+  {
+    "title": "Google Pixel Pro 14",
+    "price": 899.99,
+    "description": "\n<h2>Google Pixel Pro 14 - 4GB RAM, 64GB Storage</h2>\n\n<p>Experience the power and style of the Google Pixel Pro 14. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.1\" AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> MediaTek Helio G99 processor with 4GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 64GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 50MP main camera, 8MP ultrawide camera</li>\n  <li><strong>Selfie Camera:</strong> 13MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 4500mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Red (other colors may be available)</li>\n</ul>\n\n<p>The Google Pixel Pro 14 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Google Pixel Pro 14 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Google</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Pixel Pro 14</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">MediaTek Helio G99</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">64GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.1\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">8MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">N/A</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">13MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4500mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Red</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 52,
+    "images": [
+      {
+        "public_id": "mobiles/google_pixel_pro_14_0",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=Google%20Pixel%20Pro%2014"
+      },
+      {
+        "public_id": "mobiles/google_pixel_pro_14_1",
+        "url": "https://placehold.co/800x800/7CB342/FFFFFF?text=Google%20Pixel%20Pro%2014"
+      },
+      {
+        "public_id": "mobiles/google_pixel_pro_14_2",
+        "url": "https://placehold.co/800x800/7CB342/FFFFFF?text=Google%20Pixel%20Pro%2014"
+      }
+    ],
+    "specifications": {
+      "brand": "Google",
+      "model": "Pixel Pro 14",
+      "processor": "MediaTek Helio G99",
+      "ram": "4GB",
+      "storage": "64GB",
+      "camera": {
+        "main": "50MP",
+        "ultrawide": "8MP",
+        "telephoto": null,
+        "selfie": "13MP"
+      },
+      "battery": "4500mAh",
+      "screen": "6.1\" AMOLED",
+      "color": "Red"
+    }
+  },
+  {
+    "title": "Nokia Nokia 21",
+    "price": 799.99,
+    "description": "\n<h2>Nokia Nokia 21 - 4GB RAM, 256GB Storage</h2>\n\n<p>Experience the power and style of the Nokia Nokia 21. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.5\" LTPO AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> MediaTek Dimensity 9300 processor with 4GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 256GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 50MP main camera, 12MP ultrawide camera, 10MP telephoto camera</li>\n  <li><strong>Selfie Camera:</strong> 12MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 3000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Black (other colors may be available)</li>\n</ul>\n\n<p>The Nokia Nokia 21 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Nokia Nokia 21 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Nokia</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Nokia 21</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">MediaTek Dimensity 9300</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">256GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.5\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">LTPO AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">10MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">3000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Black</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 16,
+    "images": [
+      {
+        "public_id": "mobiles/nokia_nokia_21_0",
+        "url": "https://placehold.co/800x800/1a73e8/FFFFFF?text=Nokia%20Nokia%2021"
+      },
+      {
+        "public_id": "mobiles/nokia_nokia_21_1",
+        "url": "https://placehold.co/800x800/E91E63/FFFFFF?text=Nokia%20Nokia%2021"
+      },
+      {
+        "public_id": "mobiles/nokia_nokia_21_2",
+        "url": "https://placehold.co/800x800/E91E63/FFFFFF?text=Nokia%20Nokia%2021"
+      }
+    ],
+    "specifications": {
+      "brand": "Nokia",
+      "model": "Nokia 21",
+      "processor": "MediaTek Dimensity 9300",
+      "ram": "4GB",
+      "storage": "256GB",
+      "camera": {
+        "main": "50MP",
+        "ultrawide": "12MP",
+        "telephoto": "10MP",
+        "selfie": "12MP"
+      },
+      "battery": "3000mAh",
+      "screen": "6.5\" LTPO AMOLED",
+      "color": "Black"
+    }
+  },
+  {
+    "title": "Nokia Nokia 16",
+    "price": 449.99,
+    "description": "\n<h2>Nokia Nokia 16 - 4GB RAM, 128GB Storage</h2>\n\n<p>Experience the power and style of the Nokia Nokia 16. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 7.0\" LTPO AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Snapdragon 8 Gen 3 processor with 4GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 128GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 50MP main camera, 12MP ultrawide camera</li>\n  <li><strong>Selfie Camera:</strong> 12MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 4500mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> White (other colors may be available)</li>\n</ul>\n\n<p>The Nokia Nokia 16 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Nokia Nokia 16 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Nokia</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Nokia 16</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Snapdragon 8 Gen 3</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">128GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">7.0\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">LTPO AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">N/A</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4500mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">White</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 33,
+    "images": [
+      {
+        "public_id": "mobiles/nokia_nokia_16_0",
+        "url": "https://placehold.co/800x800/1a73e8/FFFFFF?text=Nokia%20Nokia%2016"
+      },
+      {
+        "public_id": "mobiles/nokia_nokia_16_1",
+        "url": "https://placehold.co/800x800/E91E63/FFFFFF?text=Nokia%20Nokia%2016"
+      }
+    ],
+    "specifications": {
+      "brand": "Nokia",
+      "model": "Nokia 16",
+      "processor": "Snapdragon 8 Gen 3",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": {
+        "main": "50MP",
+        "ultrawide": "12MP",
+        "telephoto": null,
+        "selfie": "12MP"
+      },
+      "battery": "4500mAh",
+      "screen": "7.0\" LTPO AMOLED",
+      "color": "White"
+    }
+  },
+  {
+    "title": "Motorola Moto G 26",
+    "price": 449.99,
+    "description": "\n<h2>Motorola Moto G 26 - 4GB RAM, 128GB Storage</h2>\n\n<p>Experience the power and style of the Motorola Moto G 26. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.1\" AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Snapdragon 8 Gen 3 processor with 4GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 128GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 50MP main camera, 8MP ultrawide camera</li>\n  <li><strong>Selfie Camera:</strong> 13MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 3000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Gray (other colors may be available)</li>\n</ul>\n\n<p>The Motorola Moto G 26 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Motorola Moto G 26 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Motorola</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Moto G 26</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Snapdragon 8 Gen 3</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">128GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.1\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">8MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">N/A</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">13MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">3000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Gray</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 48,
+    "images": [
+      {
+        "public_id": "mobiles/motorola_moto_g_26_0",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=Motorola%20Moto%20G%2026"
+      },
+      {
+        "public_id": "mobiles/motorola_moto_g_26_1",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=Motorola%20Moto%20G%2026"
+      }
+    ],
+    "specifications": {
+      "brand": "Motorola",
+      "model": "Moto G 26",
+      "processor": "Snapdragon 8 Gen 3",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": {
+        "main": "50MP",
+        "ultrawide": "8MP",
+        "telephoto": null,
+        "selfie": "13MP"
+      },
+      "battery": "3000mAh",
+      "screen": "6.1\" AMOLED",
+      "color": "Gray"
+    }
+  },
+  {
+    "title": "OnePlus Nord 15",
+    "price": 1249.99,
+    "description": "\n<h2>OnePlus Nord 15 - 16GB RAM, 256GB Storage</h2>\n\n<p>Experience the power and style of the OnePlus Nord 15. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 5.4\" Super AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Apple A16 Bionic processor with 16GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 256GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 200MP main camera, 50MP ultrawide camera, 10MP telephoto camera</li>\n  <li><strong>Selfie Camera:</strong> 32MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 5500mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Yellow (other colors may be available)</li>\n</ul>\n\n<p>The OnePlus Nord 15 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>OnePlus Nord 15 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">OnePlus</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Nord 15</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Apple A16 Bionic</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">16GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">256GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5.4\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Super AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">200MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">10MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">32MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5500mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Yellow</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 50,
+    "images": [
+      {
+        "public_id": "mobiles/oneplus_nord_15_0",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=OnePlus%20Nord%2015"
+      },
+      {
+        "public_id": "mobiles/oneplus_nord_15_1",
+        "url": "https://placehold.co/800x800/1a73e8/FFFFFF?text=OnePlus%20Nord%2015"
+      },
+      {
+        "public_id": "mobiles/oneplus_nord_15_2",
+        "url": "https://placehold.co/800x800/E91E63/FFFFFF?text=OnePlus%20Nord%2015"
+      }
+    ],
+    "specifications": {
+      "brand": "OnePlus",
+      "model": "Nord 15",
+      "processor": "Apple A16 Bionic",
+      "ram": "16GB",
+      "storage": "256GB",
+      "camera": {
+        "main": "200MP",
+        "ultrawide": "50MP",
+        "telephoto": "10MP",
+        "selfie": "32MP"
+      },
+      "battery": "5500mAh",
+      "screen": "5.4\" Super AMOLED",
+      "color": "Yellow"
+    }
+  },
+  {
+    "title": "Xiaomi Redmi 3",
+    "price": 1249.99,
+    "description": "\n<h2>Xiaomi Redmi 3 - 6GB RAM, 512GB Storage</h2>\n\n<p>Experience the power and style of the Xiaomi Redmi 3. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 5.4\" AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Google Tensor G3 processor with 6GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 512GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 64MP main camera, 8MP ultrawide camera</li>\n  <li><strong>Selfie Camera:</strong> 16MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 4000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Green (other colors may be available)</li>\n</ul>\n\n<p>The Xiaomi Redmi 3 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Xiaomi Redmi 3 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Xiaomi</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Redmi 3</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Google Tensor G3</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">512GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5.4\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">64MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">8MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">N/A</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">16MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Green</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 63,
+    "images": [
+      {
+        "public_id": "mobiles/xiaomi_redmi_3_0",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=Xiaomi%20Redmi%203"
+      },
+      {
+        "public_id": "mobiles/xiaomi_redmi_3_1",
+        "url": "https://placehold.co/800x800/1a73e8/FFFFFF?text=Xiaomi%20Redmi%203"
+      }
+    ],
+    "specifications": {
+      "brand": "Xiaomi",
+      "model": "Redmi 3",
+      "processor": "Google Tensor G3",
+      "ram": "6GB",
+      "storage": "512GB",
+      "camera": {
+        "main": "64MP",
+        "ultrawide": "8MP",
+        "telephoto": null,
+        "selfie": "16MP"
+      },
+      "battery": "4000mAh",
+      "screen": "5.4\" AMOLED",
+      "color": "Green"
+    }
+  },
+  {
+    "title": "Nokia Nokia 28",
+    "price": 999.99,
+    "description": "\n<h2>Nokia Nokia 28 - 12GB RAM, 512GB Storage</h2>\n\n<p>Experience the power and style of the Nokia Nokia 28. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.8\" LTPO AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Snapdragon 695 processor with 12GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 512GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 50MP main camera, 48MP ultrawide camera, 12MP telephoto camera</li>\n  <li><strong>Selfie Camera:</strong> 12MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 5000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Silver (other colors may be available)</li>\n</ul>\n\n<p>The Nokia Nokia 28 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Nokia Nokia 28 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Nokia</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Nokia 28</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Snapdragon 695</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">512GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.8\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">LTPO AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">48MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Silver</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 14,
+    "images": [
+      {
+        "public_id": "mobiles/nokia_nokia_28_0",
+        "url": "https://placehold.co/800x800/1a73e8/FFFFFF?text=Nokia%20Nokia%2028"
+      },
+      {
+        "public_id": "mobiles/nokia_nokia_28_1",
+        "url": "https://placehold.co/800x800/7CB342/FFFFFF?text=Nokia%20Nokia%2028"
+      }
+    ],
+    "specifications": {
+      "brand": "Nokia",
+      "model": "Nokia 28",
+      "processor": "Snapdragon 695",
+      "ram": "12GB",
+      "storage": "512GB",
+      "camera": {
+        "main": "50MP",
+        "ultrawide": "48MP",
+        "telephoto": "12MP",
+        "selfie": "12MP"
+      },
+      "battery": "5000mAh",
+      "screen": "6.8\" LTPO AMOLED",
+      "color": "Silver"
+    }
+  },
+  {
+    "title": "Sony Xperia 28",
+    "price": 849.99,
+    "description": "\n<h2>Sony Xperia 28 - 4GB RAM, 128GB Storage</h2>\n\n<p>Experience the power and style of the Sony Xperia 28. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.1\" Super AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Apple A17 Pro processor with 4GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 128GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 12MP main camera, 12MP ultrawide camera</li>\n  <li><strong>Selfie Camera:</strong> 12MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 3000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Red (other colors may be available)</li>\n</ul>\n\n<p>The Sony Xperia 28 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Sony Xperia 28 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Sony</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Xperia 28</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Apple A17 Pro</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">128GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.1\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Super AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">N/A</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">3000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Red</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 57,
+    "images": [
+      {
+        "public_id": "mobiles/sony_xperia_28_0",
+        "url": "https://placehold.co/800x800/1a73e8/FFFFFF?text=Sony%20Xperia%2028"
+      },
+      {
+        "public_id": "mobiles/sony_xperia_28_1",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=Sony%20Xperia%2028"
+      },
+      {
+        "public_id": "mobiles/sony_xperia_28_2",
+        "url": "https://placehold.co/800x800/7CB342/FFFFFF?text=Sony%20Xperia%2028"
+      }
+    ],
+    "specifications": {
+      "brand": "Sony",
+      "model": "Xperia 28",
+      "processor": "Apple A17 Pro",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": {
+        "main": "12MP",
+        "ultrawide": "12MP",
+        "telephoto": null,
+        "selfie": "12MP"
+      },
+      "battery": "3000mAh",
+      "screen": "6.1\" Super AMOLED",
+      "color": "Red"
+    }
+  },
+  {
+    "title": "Sony Xperia 2",
+    "price": 699.99,
+    "description": "\n<h2>Sony Xperia 2 - 6GB RAM, 64GB Storage</h2>\n\n<p>Experience the power and style of the Sony Xperia 2. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.7\" Super AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> MediaTek Dimensity 9200 processor with 6GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 64GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 50MP main camera, 8MP ultrawide camera</li>\n  <li><strong>Selfie Camera:</strong> 13MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 5500mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Gray (other colors may be available)</li>\n</ul>\n\n<p>The Sony Xperia 2 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Sony Xperia 2 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Sony</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Xperia 2</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">MediaTek Dimensity 9200</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">64GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.7\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Super AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">8MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">N/A</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">13MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5500mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Gray</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 50,
+    "images": [
+      {
+        "public_id": "mobiles/sony_xperia_2_0",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=Sony%20Xperia%202"
+      },
+      {
+        "public_id": "mobiles/sony_xperia_2_1",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=Sony%20Xperia%202"
+      },
+      {
+        "public_id": "mobiles/sony_xperia_2_2",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=Sony%20Xperia%202"
+      }
+    ],
+    "specifications": {
+      "brand": "Sony",
+      "model": "Xperia 2",
+      "processor": "MediaTek Dimensity 9200",
+      "ram": "6GB",
+      "storage": "64GB",
+      "camera": {
+        "main": "50MP",
+        "ultrawide": "8MP",
+        "telephoto": null,
+        "selfie": "13MP"
+      },
+      "battery": "5500mAh",
+      "screen": "6.7\" Super AMOLED",
+      "color": "Gray"
+    }
+  },
+  {
+    "title": "Samsung Galaxy S 24",
+    "price": 1999.99,
+    "description": "\n<h2>Samsung Galaxy S 24 - 16GB RAM, 1024GB Storage</h2>\n\n<p>Experience the power and style of the Samsung Galaxy S 24. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.8\" Super AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Google Tensor G3 processor with 16GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 1024GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 12MP main camera, 12MP ultrawide camera</li>\n  <li><strong>Selfie Camera:</strong> 12MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 5000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Silver (other colors may be available)</li>\n</ul>\n\n<p>The Samsung Galaxy S 24 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Samsung Galaxy S 24 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Samsung</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Galaxy S 24</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Google Tensor G3</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">16GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">1024GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.8\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Super AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">N/A</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Silver</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 19,
+    "images": [
+      {
+        "public_id": "mobiles/samsung_galaxy_s_24_0",
+        "url": "https://placehold.co/800x800/E91E63/FFFFFF?text=Samsung%20Galaxy%20S%2024"
+      },
+      {
+        "public_id": "mobiles/samsung_galaxy_s_24_1",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=Samsung%20Galaxy%20S%2024"
+      },
+      {
+        "public_id": "mobiles/samsung_galaxy_s_24_2",
+        "url": "https://placehold.co/800x800/7CB342/FFFFFF?text=Samsung%20Galaxy%20S%2024"
+      }
+    ],
+    "specifications": {
+      "brand": "Samsung",
+      "model": "Galaxy S 24",
+      "processor": "Google Tensor G3",
+      "ram": "16GB",
+      "storage": "1024GB",
+      "camera": {
+        "main": "12MP",
+        "ultrawide": "12MP",
+        "telephoto": null,
+        "selfie": "12MP"
+      },
+      "battery": "5000mAh",
+      "screen": "6.8\" Super AMOLED",
+      "color": "Silver"
+    }
+  },
+  {
+    "title": "ASUS ROG Phone 20",
+    "price": 799.99,
+    "description": "\n<h2>ASUS ROG Phone 20 - 16GB RAM, 64GB Storage</h2>\n\n<p>Experience the power and style of the ASUS ROG Phone 20. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 5.4\" Dynamic AMOLED 2X screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Snapdragon 695 processor with 16GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 64GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 108MP main camera, 12MP ultrawide camera</li>\n  <li><strong>Selfie Camera:</strong> 20MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 4500mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Red (other colors may be available)</li>\n</ul>\n\n<p>The ASUS ROG Phone 20 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>ASUS ROG Phone 20 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">ASUS</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">ROG Phone 20</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Snapdragon 695</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">16GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">64GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5.4\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Dynamic AMOLED 2X</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">108MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">N/A</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">20MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4500mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Red</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 46,
+    "images": [
+      {
+        "public_id": "mobiles/asus_rog_phone_20_0",
+        "url": "https://placehold.co/800x800/7CB342/FFFFFF?text=ASUS%20ROG%20Phone%2020"
+      },
+      {
+        "public_id": "mobiles/asus_rog_phone_20_1",
+        "url": "https://placehold.co/800x800/E91E63/FFFFFF?text=ASUS%20ROG%20Phone%2020"
+      }
+    ],
+    "specifications": {
+      "brand": "ASUS",
+      "model": "ROG Phone 20",
+      "processor": "Snapdragon 695",
+      "ram": "16GB",
+      "storage": "64GB",
+      "camera": {
+        "main": "108MP",
+        "ultrawide": "12MP",
+        "telephoto": null,
+        "selfie": "20MP"
+      },
+      "battery": "4500mAh",
+      "screen": "5.4\" Dynamic AMOLED 2X",
+      "color": "Red"
+    }
+  },
+  {
+    "title": "Nokia Nokia 23",
+    "price": 849.99,
+    "description": "\n<h2>Nokia Nokia 23 - 4GB RAM, 64GB Storage</h2>\n\n<p>Experience the power and style of the Nokia Nokia 23. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.8\" Dynamic AMOLED 2X screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> MediaTek Helio G99 processor with 4GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 64GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 48MP main camera, 12MP ultrawide camera, 48MP telephoto camera</li>\n  <li><strong>Selfie Camera:</strong> 12MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 5000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Purple (other colors may be available)</li>\n</ul>\n\n<p>The Nokia Nokia 23 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Nokia Nokia 23 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Nokia</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Nokia 23</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">MediaTek Helio G99</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">64GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.8\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Dynamic AMOLED 2X</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">48MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">48MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Purple</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 65,
+    "images": [
+      {
+        "public_id": "mobiles/nokia_nokia_23_0",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=Nokia%20Nokia%2023"
+      },
+      {
+        "public_id": "mobiles/nokia_nokia_23_1",
+        "url": "https://placehold.co/800x800/1a73e8/FFFFFF?text=Nokia%20Nokia%2023"
+      }
+    ],
+    "specifications": {
+      "brand": "Nokia",
+      "model": "Nokia 23",
+      "processor": "MediaTek Helio G99",
+      "ram": "4GB",
+      "storage": "64GB",
+      "camera": {
+        "main": "48MP",
+        "ultrawide": "12MP",
+        "telephoto": "48MP",
+        "selfie": "12MP"
+      },
+      "battery": "5000mAh",
+      "screen": "6.8\" Dynamic AMOLED 2X",
+      "color": "Purple"
+    }
+  },
+  {
+    "title": "Realme Realme 1",
+    "price": 749.99,
+    "description": "\n<h2>Realme Realme 1 - 4GB RAM, 128GB Storage</h2>\n\n<p>Experience the power and style of the Realme Realme 1. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.8\" OLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> MediaTek Dimensity 8200 processor with 4GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 128GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 108MP main camera, 12MP ultrawide camera</li>\n  <li><strong>Selfie Camera:</strong> 20MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 3500mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Green (other colors may be available)</li>\n</ul>\n\n<p>The Realme Realme 1 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Realme Realme 1 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Realme</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Realme 1</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">MediaTek Dimensity 8200</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">128GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.8\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">OLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">108MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">N/A</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">20MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">3500mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Green</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 62,
+    "images": [
+      {
+        "public_id": "mobiles/realme_realme_1_0",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=Realme%20Realme%201"
+      },
+      {
+        "public_id": "mobiles/realme_realme_1_1",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=Realme%20Realme%201"
+      },
+      {
+        "public_id": "mobiles/realme_realme_1_2",
+        "url": "https://placehold.co/800x800/E91E63/FFFFFF?text=Realme%20Realme%201"
+      }
+    ],
+    "specifications": {
+      "brand": "Realme",
+      "model": "Realme 1",
+      "processor": "MediaTek Dimensity 8200",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": {
+        "main": "108MP",
+        "ultrawide": "12MP",
+        "telephoto": null,
+        "selfie": "20MP"
+      },
+      "battery": "3500mAh",
+      "screen": "6.8\" OLED",
+      "color": "Green"
+    }
+  },
+  {
+    "title": "Apple iPhone SE 25",
+    "price": 1999.99,
+    "description": "\n<h2>Apple iPhone SE 25 - 8GB RAM, 1024GB Storage</h2>\n\n<p>Experience the power and style of the Apple iPhone SE 25. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.7\" AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Apple A15 Bionic processor with 8GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 1024GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 50MP main camera, 48MP ultrawide camera, 12MP telephoto camera</li>\n  <li><strong>Selfie Camera:</strong> 12MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 4000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Silver (other colors may be available)</li>\n</ul>\n\n<p>The Apple iPhone SE 25 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Apple iPhone SE 25 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Apple</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">iPhone SE 25</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Apple A15 Bionic</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">8GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">1024GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.7\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">48MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Silver</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 32,
+    "images": [
+      {
+        "public_id": "mobiles/apple_iphone_se_25_0",
+        "url": "https://placehold.co/800x800/E91E63/FFFFFF?text=Apple%20iPhone%20SE%2025"
+      },
+      {
+        "public_id": "mobiles/apple_iphone_se_25_1",
+        "url": "https://placehold.co/800x800/1a73e8/FFFFFF?text=Apple%20iPhone%20SE%2025"
+      },
+      {
+        "public_id": "mobiles/apple_iphone_se_25_2",
+        "url": "https://placehold.co/800x800/1a73e8/FFFFFF?text=Apple%20iPhone%20SE%2025"
+      }
+    ],
+    "specifications": {
+      "brand": "Apple",
+      "model": "iPhone SE 25",
+      "processor": "Apple A15 Bionic",
+      "ram": "8GB",
+      "storage": "1024GB",
+      "camera": {
+        "main": "50MP",
+        "ultrawide": "48MP",
+        "telephoto": "12MP",
+        "selfie": "12MP"
+      },
+      "battery": "4000mAh",
+      "screen": "6.7\" AMOLED",
+      "color": "Silver"
+    }
+  },
+  {
+    "title": "Samsung Galaxy Z Flip 18",
+    "price": 1199.99,
+    "description": "\n<h2>Samsung Galaxy Z Flip 18 - 4GB RAM, 256GB Storage</h2>\n\n<p>Experience the power and style of the Samsung Galaxy Z Flip 18. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 5.4\" LTPO AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Exynos 2200 processor with 4GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 256GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 200MP main camera, 12MP ultrawide camera, 10MP telephoto camera</li>\n  <li><strong>Selfie Camera:</strong> 12MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 3000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Green (other colors may be available)</li>\n</ul>\n\n<p>The Samsung Galaxy Z Flip 18 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Samsung Galaxy Z Flip 18 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Samsung</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Galaxy Z Flip 18</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Exynos 2200</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">256GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5.4\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">LTPO AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">200MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">10MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">3000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Green</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 68,
+    "images": [
+      {
+        "public_id": "mobiles/samsung_galaxy_z_flip_18_0",
+        "url": "https://placehold.co/800x800/1a73e8/FFFFFF?text=Samsung%20Galaxy%20Z%20Flip%2018"
+      },
+      {
+        "public_id": "mobiles/samsung_galaxy_z_flip_18_1",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=Samsung%20Galaxy%20Z%20Flip%2018"
+      },
+      {
+        "public_id": "mobiles/samsung_galaxy_z_flip_18_2",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=Samsung%20Galaxy%20Z%20Flip%2018"
+      }
+    ],
+    "specifications": {
+      "brand": "Samsung",
+      "model": "Galaxy Z Flip 18",
+      "processor": "Exynos 2200",
+      "ram": "4GB",
+      "storage": "256GB",
+      "camera": {
+        "main": "200MP",
+        "ultrawide": "12MP",
+        "telephoto": "10MP",
+        "selfie": "12MP"
+      },
+      "battery": "3000mAh",
+      "screen": "5.4\" LTPO AMOLED",
+      "color": "Green"
+    }
+  },
+  {
+    "title": "OnePlus OnePlus 27",
+    "price": 699.99,
+    "description": "\n<h2>OnePlus OnePlus 27 - 4GB RAM, 128GB Storage</h2>\n\n<p>Experience the power and style of the OnePlus OnePlus 27. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 7.0\" LTPO AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> MediaTek Dimensity 9200 processor with 4GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 128GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 64MP main camera, 8MP ultrawide camera</li>\n  <li><strong>Selfie Camera:</strong> 16MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 5000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Blue (other colors may be available)</li>\n</ul>\n\n<p>The OnePlus OnePlus 27 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>OnePlus OnePlus 27 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">OnePlus</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">OnePlus 27</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">MediaTek Dimensity 9200</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">128GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">7.0\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">LTPO AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">64MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">8MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">N/A</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">16MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Blue</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 17,
+    "images": [
+      {
+        "public_id": "mobiles/oneplus_oneplus_27_0",
+        "url": "https://placehold.co/800x800/E91E63/FFFFFF?text=OnePlus%20OnePlus%2027"
+      },
+      {
+        "public_id": "mobiles/oneplus_oneplus_27_1",
+        "url": "https://placehold.co/800x800/E91E63/FFFFFF?text=OnePlus%20OnePlus%2027"
+      },
+      {
+        "public_id": "mobiles/oneplus_oneplus_27_2",
+        "url": "https://placehold.co/800x800/1a73e8/FFFFFF?text=OnePlus%20OnePlus%2027"
+      }
+    ],
+    "specifications": {
+      "brand": "OnePlus",
+      "model": "OnePlus 27",
+      "processor": "MediaTek Dimensity 9200",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": {
+        "main": "64MP",
+        "ultrawide": "8MP",
+        "telephoto": null,
+        "selfie": "16MP"
+      },
+      "battery": "5000mAh",
+      "screen": "7.0\" LTPO AMOLED",
+      "color": "Blue"
+    }
+  },
+  {
+    "title": "Samsung Galaxy S 24",
+    "price": 1399.99,
+    "description": "\n<h2>Samsung Galaxy S 24 - 16GB RAM, 1024GB Storage</h2>\n\n<p>Experience the power and style of the Samsung Galaxy S 24. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.7\" Dynamic AMOLED 2X screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Snapdragon 8 Gen 2 processor with 16GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 1024GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 50MP main camera, 12MP ultrawide camera</li>\n  <li><strong>Selfie Camera:</strong> 12MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 3000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Black (other colors may be available)</li>\n</ul>\n\n<p>The Samsung Galaxy S 24 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Samsung Galaxy S 24 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Samsung</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Galaxy S 24</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Snapdragon 8 Gen 2</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">16GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">1024GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.7\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Dynamic AMOLED 2X</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">N/A</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">3000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Black</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 88,
+    "images": [
+      {
+        "public_id": "mobiles/samsung_galaxy_s_24_0",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=Samsung%20Galaxy%20S%2024"
+      },
+      {
+        "public_id": "mobiles/samsung_galaxy_s_24_1",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=Samsung%20Galaxy%20S%2024"
+      },
+      {
+        "public_id": "mobiles/samsung_galaxy_s_24_2",
+        "url": "https://placehold.co/800x800/1a73e8/FFFFFF?text=Samsung%20Galaxy%20S%2024"
+      }
+    ],
+    "specifications": {
+      "brand": "Samsung",
+      "model": "Galaxy S 24",
+      "processor": "Snapdragon 8 Gen 2",
+      "ram": "16GB",
+      "storage": "1024GB",
+      "camera": {
+        "main": "50MP",
+        "ultrawide": "12MP",
+        "telephoto": null,
+        "selfie": "12MP"
+      },
+      "battery": "3000mAh",
+      "screen": "6.7\" Dynamic AMOLED 2X",
+      "color": "Black"
+    }
+  },
+  {
+    "title": "OnePlus Nord 16",
+    "price": 949.99,
+    "description": "\n<h2>OnePlus Nord 16 - 4GB RAM, 128GB Storage</h2>\n\n<p>Experience the power and style of the OnePlus Nord 16. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.7\" IPS LCD screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Apple A17 Pro processor with 4GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 128GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 50MP main camera, 48MP ultrawide camera, 12MP telephoto camera</li>\n  <li><strong>Selfie Camera:</strong> 12MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 6000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Gray (other colors may be available)</li>\n</ul>\n\n<p>The OnePlus Nord 16 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>OnePlus Nord 16 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">OnePlus</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Nord 16</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Apple A17 Pro</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">128GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.7\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">IPS LCD</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">48MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Gray</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 23,
+    "images": [
+      {
+        "public_id": "mobiles/oneplus_nord_16_0",
+        "url": "https://placehold.co/800x800/7CB342/FFFFFF?text=OnePlus%20Nord%2016"
+      },
+      {
+        "public_id": "mobiles/oneplus_nord_16_1",
+        "url": "https://placehold.co/800x800/1a73e8/FFFFFF?text=OnePlus%20Nord%2016"
+      },
+      {
+        "public_id": "mobiles/oneplus_nord_16_2",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=OnePlus%20Nord%2016"
+      }
+    ],
+    "specifications": {
+      "brand": "OnePlus",
+      "model": "Nord 16",
+      "processor": "Apple A17 Pro",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": {
+        "main": "50MP",
+        "ultrawide": "48MP",
+        "telephoto": "12MP",
+        "selfie": "12MP"
+      },
+      "battery": "6000mAh",
+      "screen": "6.7\" IPS LCD",
+      "color": "Gray"
+    }
+  },
+  {
+    "title": "OnePlus OnePlus 14",
+    "price": 999.99,
+    "description": "\n<h2>OnePlus OnePlus 14 - 6GB RAM, 512GB Storage</h2>\n\n<p>Experience the power and style of the OnePlus OnePlus 14. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.7\" AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> MediaTek Dimensity 8200 processor with 6GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 512GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 200MP main camera, 12MP ultrawide camera, 10MP telephoto camera</li>\n  <li><strong>Selfie Camera:</strong> 12MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 5500mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Green (other colors may be available)</li>\n</ul>\n\n<p>The OnePlus OnePlus 14 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>OnePlus OnePlus 14 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">OnePlus</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">OnePlus 14</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">MediaTek Dimensity 8200</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">512GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.7\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">200MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">10MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5500mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Green</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 16,
+    "images": [
+      {
+        "public_id": "mobiles/oneplus_oneplus_14_0",
+        "url": "https://placehold.co/800x800/1a73e8/FFFFFF?text=OnePlus%20OnePlus%2014"
+      },
+      {
+        "public_id": "mobiles/oneplus_oneplus_14_1",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=OnePlus%20OnePlus%2014"
+      }
+    ],
+    "specifications": {
+      "brand": "OnePlus",
+      "model": "OnePlus 14",
+      "processor": "MediaTek Dimensity 8200",
+      "ram": "6GB",
+      "storage": "512GB",
+      "camera": {
+        "main": "200MP",
+        "ultrawide": "12MP",
+        "telephoto": "10MP",
+        "selfie": "12MP"
+      },
+      "battery": "5500mAh",
+      "screen": "6.7\" AMOLED",
+      "color": "Green"
+    }
+  },
+  {
+    "title": "ASUS Zenfone 1",
+    "price": 1249.99,
+    "description": "\n<h2>ASUS Zenfone 1 - 4GB RAM, 1024GB Storage</h2>\n\n<p>Experience the power and style of the ASUS Zenfone 1. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.7\" Dynamic AMOLED 2X screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> MediaTek Helio G99 processor with 4GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 1024GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 48MP main camera, 12MP ultrawide camera, 48MP telephoto camera</li>\n  <li><strong>Selfie Camera:</strong> 12MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 3000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Silver (other colors may be available)</li>\n</ul>\n\n<p>The ASUS Zenfone 1 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>ASUS Zenfone 1 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">ASUS</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Zenfone 1</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">MediaTek Helio G99</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">1024GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.7\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Dynamic AMOLED 2X</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">48MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">48MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">3000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Silver</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 23,
+    "images": [
+      {
+        "public_id": "mobiles/asus_zenfone_1_0",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=ASUS%20Zenfone%201"
+      },
+      {
+        "public_id": "mobiles/asus_zenfone_1_1",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=ASUS%20Zenfone%201"
+      }
+    ],
+    "specifications": {
+      "brand": "ASUS",
+      "model": "Zenfone 1",
+      "processor": "MediaTek Helio G99",
+      "ram": "4GB",
+      "storage": "1024GB",
+      "camera": {
+        "main": "48MP",
+        "ultrawide": "12MP",
+        "telephoto": "48MP",
+        "selfie": "12MP"
+      },
+      "battery": "3000mAh",
+      "screen": "6.7\" Dynamic AMOLED 2X",
+      "color": "Silver"
+    }
+  },
+  {
+    "title": "Realme GT 18",
+    "price": 649.99,
+    "description": "\n<h2>Realme GT 18 - 6GB RAM, 64GB Storage</h2>\n\n<p>Experience the power and style of the Realme GT 18. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.7\" Super AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> MediaTek Dimensity 9300 processor with 6GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 64GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 64MP main camera, 8MP ultrawide camera</li>\n  <li><strong>Selfie Camera:</strong> 16MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 5500mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> White (other colors may be available)</li>\n</ul>\n\n<p>The Realme GT 18 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Realme GT 18 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Realme</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">GT 18</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">MediaTek Dimensity 9300</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">64GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.7\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Super AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">64MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">8MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">N/A</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">16MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5500mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">White</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 51,
+    "images": [
+      {
+        "public_id": "mobiles/realme_gt_18_0",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=Realme%20GT%2018"
+      },
+      {
+        "public_id": "mobiles/realme_gt_18_1",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=Realme%20GT%2018"
+      },
+      {
+        "public_id": "mobiles/realme_gt_18_2",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=Realme%20GT%2018"
+      }
+    ],
+    "specifications": {
+      "brand": "Realme",
+      "model": "GT 18",
+      "processor": "MediaTek Dimensity 9300",
+      "ram": "6GB",
+      "storage": "64GB",
+      "camera": {
+        "main": "64MP",
+        "ultrawide": "8MP",
+        "telephoto": null,
+        "selfie": "16MP"
+      },
+      "battery": "5500mAh",
+      "screen": "6.7\" Super AMOLED",
+      "color": "White"
+    }
+  },
+  {
+    "title": "OnePlus Nord 10",
+    "price": 1499.99,
+    "description": "\n<h2>OnePlus Nord 10 - 16GB RAM, 256GB Storage</h2>\n\n<p>Experience the power and style of the OnePlus Nord 10. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.7\" Dynamic AMOLED 2X screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Google Tensor G2 processor with 16GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 256GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 200MP main camera, 50MP ultrawide camera, 10MP telephoto camera</li>\n  <li><strong>Selfie Camera:</strong> 32MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 5500mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Purple (other colors may be available)</li>\n</ul>\n\n<p>The OnePlus Nord 10 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>OnePlus Nord 10 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">OnePlus</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Nord 10</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Google Tensor G2</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">16GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">256GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.7\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Dynamic AMOLED 2X</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">200MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">10MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">32MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5500mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Purple</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 81,
+    "images": [
+      {
+        "public_id": "mobiles/oneplus_nord_10_0",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=OnePlus%20Nord%2010"
+      },
+      {
+        "public_id": "mobiles/oneplus_nord_10_1",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=OnePlus%20Nord%2010"
+      },
+      {
+        "public_id": "mobiles/oneplus_nord_10_2",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=OnePlus%20Nord%2010"
+      }
+    ],
+    "specifications": {
+      "brand": "OnePlus",
+      "model": "Nord 10",
+      "processor": "Google Tensor G2",
+      "ram": "16GB",
+      "storage": "256GB",
+      "camera": {
+        "main": "200MP",
+        "ultrawide": "50MP",
+        "telephoto": "10MP",
+        "selfie": "32MP"
+      },
+      "battery": "5500mAh",
+      "screen": "6.7\" Dynamic AMOLED 2X",
+      "color": "Purple"
+    }
+  },
+  {
+    "title": "Nokia Nokia 10",
+    "price": 849.99,
+    "description": "\n<h2>Nokia Nokia 10 - 8GB RAM, 1024GB Storage</h2>\n\n<p>Experience the power and style of the Nokia Nokia 10. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.8\" Super AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Snapdragon 8 Gen 3 processor with 8GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 1024GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 108MP main camera, 12MP ultrawide camera</li>\n  <li><strong>Selfie Camera:</strong> 20MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 5000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Blue (other colors may be available)</li>\n</ul>\n\n<p>The Nokia Nokia 10 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Nokia Nokia 10 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Nokia</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Nokia 10</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Snapdragon 8 Gen 3</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">8GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">1024GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.8\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Super AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">108MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">N/A</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">20MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Blue</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 42,
+    "images": [
+      {
+        "public_id": "mobiles/nokia_nokia_10_0",
+        "url": "https://placehold.co/800x800/7CB342/FFFFFF?text=Nokia%20Nokia%2010"
+      },
+      {
+        "public_id": "mobiles/nokia_nokia_10_1",
+        "url": "https://placehold.co/800x800/1a73e8/FFFFFF?text=Nokia%20Nokia%2010"
+      }
+    ],
+    "specifications": {
+      "brand": "Nokia",
+      "model": "Nokia 10",
+      "processor": "Snapdragon 8 Gen 3",
+      "ram": "8GB",
+      "storage": "1024GB",
+      "camera": {
+        "main": "108MP",
+        "ultrawide": "12MP",
+        "telephoto": null,
+        "selfie": "20MP"
+      },
+      "battery": "5000mAh",
+      "screen": "6.8\" Super AMOLED",
+      "color": "Blue"
+    }
+  },
+  {
+    "title": "Motorola Moto E 4",
+    "price": 1049.99,
+    "description": "\n<h2>Motorola Moto E 4 - 12GB RAM, 64GB Storage</h2>\n\n<p>Experience the power and style of the Motorola Moto E 4. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 7.0\" LTPO AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Apple A15 Bionic processor with 12GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 64GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 12MP main camera, 12MP ultrawide camera</li>\n  <li><strong>Selfie Camera:</strong> 12MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 3000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Titanium (other colors may be available)</li>\n</ul>\n\n<p>The Motorola Moto E 4 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Motorola Moto E 4 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Motorola</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Moto E 4</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Apple A15 Bionic</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">64GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">7.0\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">LTPO AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">N/A</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">3000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Titanium</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 58,
+    "images": [
+      {
+        "public_id": "mobiles/motorola_moto_e_4_0",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=Motorola%20Moto%20E%204"
+      },
+      {
+        "public_id": "mobiles/motorola_moto_e_4_1",
+        "url": "https://placehold.co/800x800/E91E63/FFFFFF?text=Motorola%20Moto%20E%204"
+      },
+      {
+        "public_id": "mobiles/motorola_moto_e_4_2",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=Motorola%20Moto%20E%204"
+      }
+    ],
+    "specifications": {
+      "brand": "Motorola",
+      "model": "Moto E 4",
+      "processor": "Apple A15 Bionic",
+      "ram": "12GB",
+      "storage": "64GB",
+      "camera": {
+        "main": "12MP",
+        "ultrawide": "12MP",
+        "telephoto": null,
+        "selfie": "12MP"
+      },
+      "battery": "3000mAh",
+      "screen": "7.0\" LTPO AMOLED",
+      "color": "Titanium"
+    }
+  },
+  {
+    "title": "Motorola Moto E 26",
+    "price": 949.99,
+    "description": "\n<h2>Motorola Moto E 26 - 6GB RAM, 512GB Storage</h2>\n\n<p>Experience the power and style of the Motorola Moto E 26. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 5.4\" IPS LCD screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> MediaTek Dimensity 9200 processor with 6GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 512GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 48MP main camera, 12MP ultrawide camera, 48MP telephoto camera</li>\n  <li><strong>Selfie Camera:</strong> 12MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 5500mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Black (other colors may be available)</li>\n</ul>\n\n<p>The Motorola Moto E 26 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Motorola Moto E 26 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Motorola</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Moto E 26</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">MediaTek Dimensity 9200</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">512GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5.4\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">IPS LCD</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">48MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">48MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">5500mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Black</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 12,
+    "images": [
+      {
+        "public_id": "mobiles/motorola_moto_e_26_0",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=Motorola%20Moto%20E%2026"
+      },
+      {
+        "public_id": "mobiles/motorola_moto_e_26_1",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=Motorola%20Moto%20E%2026"
+      },
+      {
+        "public_id": "mobiles/motorola_moto_e_26_2",
+        "url": "https://placehold.co/800x800/7CB342/FFFFFF?text=Motorola%20Moto%20E%2026"
+      }
+    ],
+    "specifications": {
+      "brand": "Motorola",
+      "model": "Moto E 26",
+      "processor": "MediaTek Dimensity 9200",
+      "ram": "6GB",
+      "storage": "512GB",
+      "camera": {
+        "main": "48MP",
+        "ultrawide": "12MP",
+        "telephoto": "48MP",
+        "selfie": "12MP"
+      },
+      "battery": "5500mAh",
+      "screen": "5.4\" IPS LCD",
+      "color": "Black"
+    }
+  },
+  {
+    "title": "Samsung Galaxy Z Flip 13",
+    "price": 1349.99,
+    "description": "\n<h2>Samsung Galaxy Z Flip 13 - 16GB RAM, 1024GB Storage</h2>\n\n<p>Experience the power and style of the Samsung Galaxy Z Flip 13. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.7\" Dynamic AMOLED 2X screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> MediaTek Dimensity 8200 processor with 16GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 1024GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 50MP main camera, 8MP ultrawide camera</li>\n  <li><strong>Selfie Camera:</strong> 13MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 4500mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Pink (other colors may be available)</li>\n</ul>\n\n<p>The Samsung Galaxy Z Flip 13 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Samsung Galaxy Z Flip 13 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Samsung</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Galaxy Z Flip 13</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">MediaTek Dimensity 8200</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">16GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">1024GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.7\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Dynamic AMOLED 2X</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">8MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">N/A</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">13MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4500mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Pink</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 67,
+    "images": [
+      {
+        "public_id": "mobiles/samsung_galaxy_z_flip_13_0",
+        "url": "https://placehold.co/800x800/E91E63/FFFFFF?text=Samsung%20Galaxy%20Z%20Flip%2013"
+      },
+      {
+        "public_id": "mobiles/samsung_galaxy_z_flip_13_1",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=Samsung%20Galaxy%20Z%20Flip%2013"
+      },
+      {
+        "public_id": "mobiles/samsung_galaxy_z_flip_13_2",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=Samsung%20Galaxy%20Z%20Flip%2013"
+      }
+    ],
+    "specifications": {
+      "brand": "Samsung",
+      "model": "Galaxy Z Flip 13",
+      "processor": "MediaTek Dimensity 8200",
+      "ram": "16GB",
+      "storage": "1024GB",
+      "camera": {
+        "main": "50MP",
+        "ultrawide": "8MP",
+        "telephoto": null,
+        "selfie": "13MP"
+      },
+      "battery": "4500mAh",
+      "screen": "6.7\" Dynamic AMOLED 2X",
+      "color": "Pink"
+    }
+  },
+  {
+    "title": "Nokia Nokia 11",
+    "price": 1299.99,
+    "description": "\n<h2>Nokia Nokia 11 - 16GB RAM, 128GB Storage</h2>\n\n<p>Experience the power and style of the Nokia Nokia 11. This premium smartphone features cutting-edge technology and sleek design.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li><strong>Display:</strong> 6.8\" LTPO AMOLED screen with vibrant colors and deep blacks</li>\n  <li><strong>Performance:</strong> Exynos 2400 processor with 16GB RAM for smooth multitasking</li>\n  <li><strong>Storage:</strong> 128GB internal storage for all your apps, photos, and videos</li>\n  <li><strong>Camera System:</strong> 50MP main camera, 12MP ultrawide camera, 10MP telephoto camera</li>\n  <li><strong>Selfie Camera:</strong> 12MP front-facing camera for beautiful selfies</li>\n  <li><strong>Battery:</strong> 4000mAh for all-day usage</li>\n  <li><strong>Colors Available:</strong> Gray (other colors may be available)</li>\n</ul>\n\n<p>The Nokia Nokia 11 sets new standards in mobile technology with its advanced features and elegant design. Whether you're a photography enthusiast, gamer, or professional, this device delivers exceptional performance for all your needs.</p>\n\n<h3>What's in the Box:</h3>\n<ul>\n  <li>Nokia Nokia 11 smartphone</li>\n  <li>USB-C charging cable</li>\n  <li>Quick start guide</li>\n  <li>SIM ejector tool</li>\n</ul>\n\n<h3>Technical Specifications:</h3>\n<table style=\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n  <tr>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Specification</th>\n    <th style=\"padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #f2f2f2;\">Details</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Brand</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Nokia</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Model</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Nokia 11</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Processor</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Exynos 2400</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>RAM</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">16GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Storage</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">128GB</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Size</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6.8\"</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Display Type</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">LTPO AMOLED</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Main Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Ultrawide Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Telephoto Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">10MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Selfie Camera</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">12MP</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Battery Capacity</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">4000mAh</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\"><strong>Color</strong></td>\n    <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Gray</td>\n  </tr>\n</table>\n",
+    "category": "mobile",
+    "stock": 17,
+    "images": [
+      {
+        "public_id": "mobiles/nokia_nokia_11_0",
+        "url": "https://placehold.co/800x800/FFD54F/202124?text=Nokia%20Nokia%2011"
+      },
+      {
+        "public_id": "mobiles/nokia_nokia_11_1",
+        "url": "https://placehold.co/800x800/7CB342/FFFFFF?text=Nokia%20Nokia%2011"
+      },
+      {
+        "public_id": "mobiles/nokia_nokia_11_2",
+        "url": "https://placehold.co/800x800/202124/FFFFFF?text=Nokia%20Nokia%2011"
+      }
+    ],
+    "specifications": {
+      "brand": "Nokia",
+      "model": "Nokia 11",
+      "processor": "Exynos 2400",
+      "ram": "16GB",
+      "storage": "128GB",
+      "camera": {
+        "main": "50MP",
+        "ultrawide": "12MP",
+        "telephoto": "10MP",
+        "selfie": "12MP"
+      },
+      "battery": "4000mAh",
+      "screen": "6.8\" LTPO AMOLED",
+      "color": "Gray"
+    }
+  }
+]

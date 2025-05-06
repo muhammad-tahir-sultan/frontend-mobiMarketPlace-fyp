@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { FaSearch, FaShoppingBag, FaSignInAlt, FaSignOutAlt, FaUser, FaBars, FaTimes } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import { User } from "../types/types"
@@ -15,6 +15,7 @@ const Header = ({ user }: propsTypes) => {
 
     const [isOpen, setIsOpen] = useState<boolean>(false)
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false)
+    const userMenuRef = useRef<HTMLDivElement>(null)
     
     const logoutHandler = async () => {
         try {
@@ -35,6 +36,20 @@ const Header = ({ user }: propsTypes) => {
         setIsOpen(false)
         setIsMobileMenuOpen(false)
     }
+    
+    // Handle clicks outside the user menu to close it
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            if (userMenuRef.current && !userMenuRef.current.contains(event.target as Node)) {
+                setIsOpen(false)
+            }
+        }
+        
+        document.addEventListener("mousedown", handleClickOutside)
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside)
+        }
+    }, [])
 
     return (
         <nav className="header">
@@ -57,27 +72,53 @@ const Header = ({ user }: propsTypes) => {
                 <Link className="mt-1" onClick={closeAllMenus} to="/cart"><FaShoppingBag /></Link>
 
                 {
-                    user?._id ? <>
-                        <button onClick={() => setIsOpen(!isOpen)}>
-                            <FaUser />
-                        </button>
-                        <dialog open={isOpen}>
-                            <div>
-                                {
-                                    user?.role === 'admin' && (
-                                        <Link onClick={closeAllMenus} to="/admin/dashboard">Admin</Link>
-                                    )
-                                }
-                                <Link onClick={closeAllMenus} to="/orders">Orders</Link>
-                                <button onClick={logoutHandler}>
-                                    <FaSignOutAlt />
-                                </button>
-                            </div>
-                        </dialog>
-                    </> : <>
-
-                        <Link className="mt-1" onClick={closeAllMenus} to="/login"><FaSignInAlt /></Link>
-                    </>
+                    user?._id ? (
+                        <div className="user-menu-container" ref={userMenuRef}>
+                            <button 
+                                className="user-menu-button" 
+                                onClick={() => setIsOpen(!isOpen)}
+                                aria-label="User menu"
+                            >
+                                <FaUser />
+                            </button>
+                            
+                            {isOpen && (
+                                <div className="user-dropdown">
+                                    {user?.role === 'admin' && (
+                                        <Link 
+                                            onClick={closeAllMenus} 
+                                            to="/admin/dashboard"
+                                            className="dropdown-item"
+                                        >
+                                            Admin Dashboard
+                                        </Link>
+                                    )}
+                                    <Link 
+                                        onClick={closeAllMenus} 
+                                        to="/orders"
+                                        className="dropdown-item"
+                                    >
+                                        My Orders
+                                    </Link>
+                                    <button 
+                                        onClick={logoutHandler}
+                                        className="dropdown-item logout-button"
+                                    >
+                                        <FaSignOutAlt />
+                                        <span>Logout</span>
+                                    </button>
+                                </div>
+                            )}
+                        </div>
+                    ) : (
+                        <Link 
+                            className="mt-1" 
+                            onClick={closeAllMenus} 
+                            to="/login"
+                        >
+                            <FaSignInAlt />
+                        </Link>
+                    )
                 }
             </div>
         </nav>

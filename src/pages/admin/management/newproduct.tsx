@@ -7,6 +7,8 @@ import toast from "react-hot-toast";
 import { responseToast } from "../../../utils/features";
 import { useNavigate } from "react-router-dom";
 import { FaImage } from "react-icons/fa";
+import ReactQuill from "react-quill";
+import "react-quill/dist/quill.snow.css";
 
 const NewProduct = () => {
   const { user } = useSelector((state: { userReducer: UserReducerInitialState }) => state.userReducer)
@@ -14,6 +16,7 @@ const NewProduct = () => {
   const [category, setCategory] = useState<string>("");
   const [price, setPrice] = useState<number>(1000);
   const [stock, setStock] = useState<number>(1);
+  const [description, setDescription] = useState<string>("");
   const [imagePrev, setImagePrev] = useState<string>("");
   const [image, setImage] = useState<File>();
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
@@ -38,7 +41,6 @@ const NewProduct = () => {
     }
   };
 
-
   const submitHandler = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!title || !category || !price || stock < 0 || !image) return toast.error("Please Fill All Fields");
@@ -50,7 +52,14 @@ const NewProduct = () => {
       formData.append("category", category);
       formData.append("price", price.toString());
       formData.append("stock", stock.toString());
+      formData.append("description", description);
       formData.append("image", image);
+      
+      console.log("Description value before sending:", description);
+      console.log("FormData entries:");
+      for (const pair of formData.entries()) {
+        console.log(pair[0], pair[1]);
+      }
       
       const res = await newProduct({ id: user?._id!, formData });
       
@@ -62,6 +71,17 @@ const NewProduct = () => {
       setIsSubmitting(false);
     }
   }
+  
+  const modules = {
+    toolbar: [
+      [{ header: [1, 2, 3, 4, 5, 6, false] }],
+      ["bold", "italic", "underline", "strike"],
+      [{ list: "ordered" }, { list: "bullet" }],
+      ["link"],
+      [{ color: [] }, { background: [] }],
+      ["clean"],
+    ],
+  };
   
   return (
     <div className="admin-container">
@@ -109,6 +129,18 @@ const NewProduct = () => {
                 placeholder="eg. laptop, camera etc"
                 value={category}
                 onChange={(e) => setCategory(e.target.value)}
+              />
+            </div>
+            
+            <div>
+              <label>Description</label>
+              <ReactQuill
+                theme="snow"
+                value={description}
+                onChange={setDescription}
+                modules={modules}
+                placeholder="Write product description here..."
+                style={{ height: "200px", marginBottom: "60px" }}
               />
             </div>
 
