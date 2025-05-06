@@ -88,7 +88,7 @@ const Home = () => {
       {/* iPhone Categories Section */}
       <div className="section-heading">
         <h2>iPhone Categories</h2>
-        <Link to="/search?category=mobile&brand=iphone" className="findmore">View All iPhones</Link>
+        <Link to="/search?category=iphone" className="findmore">View All iPhones</Link>
       </div>
 
       <section className="mobile-banner-section">
