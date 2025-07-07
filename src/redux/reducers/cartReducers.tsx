@@ -53,25 +53,21 @@ export const cartReducer = createSlice({
             let subtotal = state.cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
             state.subtotal = subtotal;
             
-            // Updated shipping charges logic ($10-$20 range)
-            if (subtotal >= 1000) {
-                state.shippingCharges = 10;  // Minimum shipping fee for orders >= $1000
-            } else if (subtotal >= 500) {
-                state.shippingCharges = 15;  // Medium shipping fee for orders >= $500
+            // More realistic shipping charges
+            if (subtotal >= 2000) {
+                state.shippingCharges = 0;  // Free shipping for orders ≥ ₹2000
+            } else if (subtotal >= 1000) {
+                state.shippingCharges = 100;  // ₹100 shipping fee for orders ₹1000-₹2000
             } else {
-                state.shippingCharges = 20;  // Maximum shipping fee for smaller orders
+                state.shippingCharges = 200;  // ₹200 shipping fee for smaller orders
             }
             
-            // Drastically reduced tax rate (lower than shipping)
-            // Using a fixed 2% rate to ensure it's always less than shipping charges
-            state.tax = Math.round(subtotal * 0.02);
+            // Standard GST/VAT tax rate (12%)
+            state.tax = Math.round(subtotal * 0.12);
             
-            // For very large orders, cap the tax at $8 to keep it below minimum shipping ($10)
-            if (state.tax >= 9) {
-                state.tax = 8;
-            }
+            // More realistic discount structure - 10% for orders above ₹5000
+            state.discount = subtotal > 5000 ? Math.round(subtotal * 0.1) : 0;
             
-            state.discount = subtotal > 5000 ? 1000 : 0;
             state.total = state.subtotal + state.shippingCharges + state.tax - state.discount;
         },
         discountApplied: (state, action: PayloadAction<number>) => {
