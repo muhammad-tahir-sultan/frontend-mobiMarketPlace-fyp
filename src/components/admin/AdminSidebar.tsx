@@ -10,7 +10,6 @@ import {
 import { HiMenuAlt4 } from "react-icons/hi";
 import { IoIosPeople } from "react-icons/io";
 import {
-  RiCoupon3Fill,
   RiDashboardFill,
   RiShoppingBag3Fill,
 } from "react-icons/ri";
@@ -136,14 +135,7 @@ const DivThree = ({ location }: { location: Location }) => (
   <div>
     <h5>Apps</h5>
     <ul>
-
-      <Li
-        url="/admin/app/coupon"
-        text="Coupon"
-        Icon={RiCoupon3Fill}
-        location={location}
-      />
-    
+      {/* Apps will be added here if needed */}
     </ul>
   </div>
 );
