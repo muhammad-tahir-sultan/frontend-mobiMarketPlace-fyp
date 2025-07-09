@@ -20,12 +20,9 @@ import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "../firebase";
 import { getUser } from "../redux/api/UserAPI";
 import { userExist, userNotExist } from "../redux/reducers/userReducers";
-
-
+import { FaShoppingCart, FaHeart, FaShare, FaCheck, FaTimes, FaMinus, FaPlus } from "react-icons/fa";
 
 const ProductDetails = () => {
-    // https://backend-mobimarketplace-fyp.onrender.com
-
     const dispatch = useDispatch()
     const { user } = useSelector((state: { userReducer: UserReducerInitialState }) => state.userReducer)
 
@@ -42,17 +39,16 @@ const ProductDetails = () => {
         })
     }, [dispatch])
 
-
     const [comment, setComment] = useState("");
     const [rating, setRating] = useState(0);
     const [ratingValue, setRatingValue] = useState<number | null>(0);
     const [open, setOpen] = useState(false);
+    const [quantity, setQuantity] = useState(1);
+    const [addedToCart, setAddedToCart] = useState(false);
     const { id } = useParams<{ id: string }>();
 
     const { data, isLoading, isError, refetch } = useProductDetailsQuery(id!)
     const [submitReview, { isLoading: reviewSubmitting }] = useSubmitReviewMutation();
-
-
 
     const { category, images, price, stock, title, description = "", reviews, ratings = 0, numOfReviews = 0 } = data?.product || {
         title: "",
@@ -73,6 +69,14 @@ const ProductDetails = () => {
 
     const { cartItems } = useSelector((state: { cartReducer: CartReducerInitialState }) => state.cartReducer)
 
+    // Format price with commas
+    const formatPrice = (price: number) => {
+        return new Intl.NumberFormat('en-US', { 
+            style: 'currency', 
+            currency: 'PKR',
+            maximumFractionDigits: 0 
+        }).format(price);
+    }
 
     const addToCartHandler = (cartItem: CartItem) => {
         if (cartItem.stock < 1) return toast.error("Out of Stock!")
@@ -84,18 +88,36 @@ const ProductDetails = () => {
             return toast.error("Can't Add More than Available Stock!");
         }
 
-
+        // Update with selected quantity
+        cartItem.quantity = quantity;
+        
         dispatch(addToCart(cartItem))
         toast.success("Added to Cart");
+        
+        // Show added animation
+        setAddedToCart(true);
+        setTimeout(() => setAddedToCart(false), 2000);
     }
 
-    if (isError) return <Navigate to={"/404"} />
+    const increaseQuantity = () => {
+        if (quantity < stock) {
+            setQuantity(prev => prev + 1);
+        } else {
+            toast.error("Cannot exceed available stock!");
+        }
+    };
 
+    const decreaseQuantity = () => {
+        if (quantity > 1) {
+            setQuantity(prev => prev - 1);
+        }
+    };
+
+    if (isError) return <Navigate to={"/404"} />
 
     const submitReviewToggle = () => {
         open ? setOpen(false) : setOpen(true);
     };
-
 
     const reviewSubmitHandler = async () => {
         if (!rating) {
@@ -123,202 +145,196 @@ const ProductDetails = () => {
             setOpen(false);
         }
     };
+
+    // Calculate average rating for display
+    const averageRating = ratings || 0;
+    
+    // Generate product ID for display
+    const productId = `Product # ${id?.substring(0, 15) || ""}`;
+    
     return (
         <>
             {
                 isLoading ? <Skeleton length={20} /> :
-                    <>
-                        <section className="product-detail-section">
-                            <div className="product-detail-container">
-                                <div className="product-image-wrapper">
-                                    <div className="main-image-container">
-                                        <img 
-                                            alt={title} 
-                                            className="product-main-image" 
-                                            src={imageUrl} 
-                                            width={500}
-                                            height={500}
-                                        />
+                    <div className="product-detail-container">
+                        <div className="product-detail-layout">
+                            <div className="product-image-section">
+                                <div className="main-image-container">
+                                    <img 
+                                        alt={title} 
+                                        className="product-main-image" 
+                                        src={imageUrl} 
+                                        width={500}
+                                        height={500}
+                                    />
+                                </div>
+                                <div className="image-pagination">
+                                    <span className="active-dot"></span>
+                                    <span className="dot"></span>
+                                </div>
+                            </div>
+                            
+                            <div className="product-info-section">
+                                <h1 className="product-title">{title}</h1>
+                                <p className="product-id">{productId}</p>
+                                
+                                <div className="product-rating-row">
+                                    <div className="stars-container">
+                                        {[1, 2, 3, 4, 5].map((star) => (
+                                            <span 
+                                                key={star} 
+                                                className={`star ${star <= Math.round(ratings) ? 'filled' : 'empty'}`}
+                                            >
+                                                ★
+                                            </span>
+                                        ))}
+                                        <span className="review-count">({numOfReviews} Reviews)</span>
                                     </div>
                                 </div>
-                                <div className="product-info">
-                                    <div className="product-category">{category}</div>
-                                    <h1 className="product-title">{title}</h1>
-                                    <div className="product-rating-container">
-                                        <div className="stars-container">
-                                            {[1, 2, 3, 4, 5].map((star) => (
-                                                <svg 
-                                                    key={star}
-                                                    fill={star <= Math.round(ratings) ? "currentColor" : "none"} 
-                                                    stroke="currentColor" 
-                                                    strokeLinecap="round" 
-                                                    strokeLinejoin="round" 
-                                                    strokeWidth="2" 
-                                                    className="star-icon" 
-                                                    viewBox="0 0 24 24"
-                                                >
-                                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                                                </svg>
-                                            ))}
-                                        </div>
-                                        <span className="review-count">{numOfReviews} {numOfReviews === 1 ? 'Review' : 'Reviews'}</span>
-                                    </div>
+                                
+                                <div className="product-price">
+                                    {formatPrice(price)}
+                                </div>
+                                
+                                <div className="quantity-container">
+                                    <button 
+                                        className="quantity-btn minus" 
+                                        onClick={decreaseQuantity}
+                                        disabled={quantity <= 1}
+                                    >
+                                        <FaMinus />
+                                    </button>
+                                    <input 
+                                        type="text" 
+                                        className="quantity-input" 
+                                        value={quantity} 
+                                        readOnly 
+                                    />
+                                    <button 
+                                        className="quantity-btn plus" 
+                                        onClick={increaseQuantity}
+                                        disabled={quantity >= stock}
+                                    >
+                                        <FaPlus />
+                                    </button>
+                                    
+                                    <button 
+                                        className={`add-to-cart-button ${addedToCart ? 'added' : ''}`}
+                                        onClick={() => addToCartHandler({ 
+                                            productId: id!, 
+                                            image: imageUrl, 
+                                            stock, 
+                                            price, 
+                                            title, 
+                                            quantity: quantity 
+                                        })}
+                                        disabled={stock <= 0}
+                                    >
+                                        {addedToCart ? 'Added to Cart' : 'Add to Cart'}
+                                    </button>
+                                </div>
+                                
+                                <div className="product-status">
+                                    Status: <span className={stock > 0 ? "in-stock" : "out-of-stock"}>
+                                        {stock > 0 ? "InStock" : "Out of Stock"}
+                                    </span>
+                                </div>
+                                
+                                <div className="product-description-section">
+                                    <h3 className="section-title">Description :</h3>
                                     <div className="product-description">
                                         {description ? (
                                             <div dangerouslySetInnerHTML={{ __html: description }} />
                                         ) : (
-                                            <p>No description available for this product.</p>
+                                            <p>Timeless and versatile product with high-quality materials for long-lasting wear.</p>
                                         )}
                                     </div>
-                                    <div className="product-stock-status">
-                                        {stock >= 1 ? (
-                                            <div className="in-stock">
-                                                <span className="status-icon">✅</span>
-                                                <span className="status-text">In Stock</span>
-                                                <span className="stock-count">({stock} available)</span>
-                                            </div>
-                                        ) : (
-                                            <div className="out-of-stock">
-                                                <span className="status-icon">❌</span>
-                                                <span className="status-text">Out of Stock</span>
-                                        </div>
-                                        )}
-                                        </div>
-                                    <div className="product-actions">
-                                        <div className="product-price">PKR {price}</div>
-                                        <button 
-                                            className="add-to-cart-button" 
-                                            onClick={() => addToCartHandler({ 
-                                                productId: id!, 
-                                                image: imageUrl, 
-                                                stock, 
-                                                price, 
-                                                title, 
-                                                quantity: 1 
-                                            })}
-                                            disabled={stock <= 0}
-                                        >
-                                            {stock > 0 ? 'Add to Cart' : 'Out of Stock'}
-                                        </button>
-                                    </div>
+                                </div>
+                                
+                                <div className="product-actions-row">
+                                    <button className="submit-review-btn" onClick={submitReviewToggle}>
+                                        Submit Review
+                                    </button>
                                 </div>
                             </div>
-                        </section>
-
-                        <section className="product-reviews-section">
-                            <div className="reviews-container">
-                                <div className="reviews-header">
-                                    <h2 className="reviews-title">Reviews & Ratings</h2>
-                                    {
-                                        user?._id ? 
-                                            <button 
-                                                className="write-review-button" 
-                                                onClick={submitReviewToggle} 
-                                            >
-                                                Write a Review
-                                            </button> 
-                                            : 
-                                            <Link 
-                                                to={"/login"} 
-                                                className="login-to-review-button"
-                                            >
-                                                Login to Add Review
-                                            </Link>
-                                    }
-                                </div>
-                                <Dialog
-                                    aria-labelledby="simple-dialog-title"
-                                    open={open}
-                                    onClose={submitReviewToggle}
-                                    className="review-dialog"
-                                >
-                                    <DialogTitle className="review-dialog-title">Submit Review</DialogTitle>
-                                    <DialogContent className="review-dialog-content">
-                                        <div className="rating-container">
-                                            <p className="rating-label">Your Rating</p>
-                                            <div className="rating-input-container">
+                        </div>
+                        
+                        {/* Review Dialog */}
+                        <Dialog
+                            aria-labelledby="review-dialog-title"
+                            open={open}
+                            onClose={submitReviewToggle}
+                            className="review-dialog"
+                        >
+                            <DialogTitle className="review-dialog-title" id="review-dialog-title">
+                                Submit Review
+                            </DialogTitle>
+                            <DialogContent className="review-dialog-content">
+                                <div className="rating-container">
+                                    <p className="rating-label">Your Rating</p>
+                                    <div className="rating-input-container">
                                         <Rating
                                             onChange={(_, newValue) => {
                                                 setRating(newValue!);
-                                                        setRatingValue(newValue);
+                                                setRatingValue(newValue);
                                             }}
                                             value={rating}
                                             size="large"
-                                                    precision={0.5}
-                                                    className="rating-stars"
+                                            precision={0.5}
+                                            className="rating-stars"
                                         />
-                                                {ratingValue !== null && (
-                                                    <span className="rating-value">{ratingValue} out of 5</span>
-                                                )}
-                                            </div>
-                                        </div>
+                                        {ratingValue !== null && (
+                                            <span className="rating-value">{ratingValue} out of 5</span>
+                                        )}
+                                    </div>
+                                </div>
 
-                                        <div className="comment-container">
-                                            <p className="comment-label">Your Review</p>
-                                        <textarea
-                                                className="comment-textarea"
-                                                name="comment"
-                                            cols={30}
-                                            rows={5}
-                                            value={comment}
-                                                placeholder="Write your feedback here..."
-                                            onChange={(e) => setComment(e.target.value)}
-                                        ></textarea>
-                                        </div>
-                                    </DialogContent>
-                                    <DialogActions className="review-dialog-actions">
-                                        <Button 
-                                            color="warning" 
-                                            onClick={submitReviewToggle} 
-                                            className="cancel-button"
-                                        >
-                                            Cancel
-                                        </Button>
-                                        <Button 
-                                            onClick={reviewSubmitHandler} 
-                                            className="submit-button"
-                                            disabled={!rating || reviewSubmitting}
-                                        >
-                                            {reviewSubmitting ? "Submitting..." : "Submit Review"}
-                                        </Button>
-                                    </DialogActions>
-                                </Dialog>
+                                <div className="comment-container">
+                                    <p className="comment-label">Your Review</p>
+                                    <textarea
+                                        className="comment-textarea"
+                                        name="comment"
+                                        cols={30}
+                                        rows={5}
+                                        value={comment}
+                                        placeholder="Share your experience with this product..."
+                                        onChange={(e) => setComment(e.target.value)}
+                                    ></textarea>
+                                </div>
+                            </DialogContent>
+                            <DialogActions className="review-dialog-actions">
+                                <Button 
+                                    onClick={submitReviewToggle} 
+                                    className="cancel-button"
+                                >
+                                    Cancel
+                                </Button>
+                                <Button 
+                                    onClick={reviewSubmitHandler} 
+                                    className="submit-button"
+                                    disabled={!rating || reviewSubmitting}
+                                >
+                                    {reviewSubmitting ? "Submitting..." : "Submit Review"}
+                                </Button>
+                            </DialogActions>
+                        </Dialog>
 
-                                {reviews && reviews.length > 0 ? (
-                                    <div className="reviews-list">
-                                        {reviews.map((review: Review, index: number) => {
-                                            // Handle Cloudinary or local image URL
-                                            const userImageUrl = review.user.image && 
-                                                (review.user.image.startsWith('http') 
-                                                    ? review.user.image 
-                                                    : `${server}/${review.user.image}`);
-                                                    
-                                            return (
-                                                <div className="review-item" key={index}>
-                                                    <div className="review-card">
-                                                        <div className="review-header">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="quote-icon" viewBox="0 0 975.036 975.036">
-                                                    <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
-                                                </svg>
-                                                            <div className="review-rating">
-                                                                {[1, 2, 3, 4, 5].map((star) => (
-                                                                    <svg 
-                                                                        key={star}
-                                                                        fill={star <= Math.round(review.rating) ? "currentColor" : "none"} 
-                                                                        stroke="currentColor" 
-                                                                        strokeLinecap="round" 
-                                                                        strokeLinejoin="round" 
-                                                                        strokeWidth="2" 
-                                                                        className="review-star" 
-                                                                        viewBox="0 0 24 24"
-                                                                    >
-                                                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                                                                    </svg>
-                                                                ))}
-                                                                <span className="review-rating-value">({review.rating})</span>
-                                                            </div>
-                                                        </div>
-                                                        <p className="review-comment">{review.comment}</p>
+                        {/* Reviews Section */}
+                        {reviews && reviews.length > 0 && (
+                            <div className="reviews-section">
+                                <h2 className="reviews-title">Customer Reviews</h2>
+                                <div className="reviews-list">
+                                    {reviews.map((review: Review, index: number) => {
+                                        // Handle Cloudinary or local image URL
+                                        const userImageUrl = review.user.image && 
+                                            (review.user.image.startsWith('http') 
+                                                ? review.user.image 
+                                                : `${server}/${review.user.image}`);
+                                                
+                                        return (
+                                            <div className="review-item" key={index}>
+                                                <div className="review-card">
+                                                    <div className="review-header">
                                                         <div className="reviewer-info">
                                                             <img 
                                                                 alt="reviewer" 
@@ -327,23 +343,38 @@ const ProductDetails = () => {
                                                             />
                                                             <div className="reviewer-details">
                                                                 <span className="reviewer-name">{review.user.name}</span>
-                                                                <span className="reviewer-title">Customer</span>
                                                             </div>
                                                         </div>
+                                                        <div className="review-rating">
+                                                            {[1, 2, 3, 4, 5].map((star) => (
+                                                                <span 
+                                                                    key={star} 
+                                                                    className={`star ${star <= Math.round(review.rating) ? 'filled' : 'empty'}`}
+                                                                >
+                                                                    ★
+                                                                </span>
+                                                            ))}
+                                                        </div>
+                                                    </div>
+                                                    <p className="review-comment">{review.comment}</p>
+                                                </div>
                                             </div>
-                                        </div>
-                                            );
-                                        })}
-                                    </div>
-                                ) : (
-                                    <div className="no-reviews">
-                                        <p className="no-reviews-title">No Reviews Yet</p>
-                                        <p className="no-reviews-subtitle">Be the first to review this product!</p>
-                                    </div>
-                                )}
+                                        );
+                                    })}
+                                </div>
                             </div>
-                        </section>
-                    </>
+                        )}
+                        
+                        {reviews && reviews.length === 0 && (
+                            <div className="no-reviews-section">
+                                <h2 className="reviews-title">Customer Reviews</h2>
+                                <div className="no-reviews">
+                                    <p className="no-reviews-title">No Reviews Yet</p>
+                                    <p className="no-reviews-subtitle">Be the first to review this product!</p>
+                                </div>
+                            </div>
+                        )}
+                    </div>
             }
         </>
     )

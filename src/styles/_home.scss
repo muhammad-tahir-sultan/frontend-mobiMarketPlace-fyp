@@ -208,17 +208,21 @@
     padding: 0 2rem;
   flex: 1;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-template-columns: repeat(4, 1fr); /* Show exactly 4 products per row */
     gap: 2rem;
+    
+    @media (max-width: 1200px) {
+      grid-template-columns: repeat(3, 1fr); /* 3 per row on medium screens */
+    }
     
     @media (max-width: 768px) {
       padding: 0 1rem;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1rem;
+      grid-template-columns: repeat(2, 1fr); /* 2 per row on tablet */
+      gap: 1rem;
     }
     
     @media (max-width: 480px) {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr); /* 2 per row on mobile */
       gap: 0.8rem;
     }
     

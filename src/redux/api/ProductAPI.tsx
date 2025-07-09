@@ -6,7 +6,12 @@ export const productAPI = createApi({
     reducerPath: "productApi", baseQuery: fetchBaseQuery({ baseUrl: `${import.meta.env.VITE_SERVER}/product/` }),
     tagTypes: ["product"],
     endpoints: (builder) => ({
-        latestProducts: builder.query<AllProductsResponse, string>({ query: () => "latest", providesTags: ["product"] }),
+        latestProducts: builder.query<AllProductsResponse, string>({ 
+            query: () => "latest", 
+            providesTags: ["product"],
+            // Force refresh on every call to ensure we get the latest data
+            forceRefetch: () => true
+        }),
         allProducts: builder.query<AllProductsResponse, string>({ query: (id) => `admin-products?id=${id}`, providesTags: ["product"] }),
         allCategories: builder.query<AllCategoriesResponse, string>({ query: () => `categories`, providesTags: ["product"] }),
         searchProducts: builder.query<SearchProductsResponse, SearchProductsRequest>({

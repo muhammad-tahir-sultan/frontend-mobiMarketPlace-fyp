@@ -12,6 +12,12 @@ import { FaArrowRight, FaMobile, FaDesktop, FaBatteryFull } from "react-icons/fa
 const Home = () => {
 
   const { data, isError, isLoading } = useLatestProductsQuery("")
+  
+  console.log("Latest products data:", data?.products?.length, data)
+  
+  // Make sure we're showing all 12 products
+  const productsToShow = data?.products?.slice(0, 12) || []
+  console.log("Products to show on home page:", productsToShow.length)
 
   const dispatch = useDispatch()
 
@@ -32,6 +38,8 @@ const Home = () => {
   }
 
   if (isError) toast.error("Cannot Fetch Products")
+
+  console.log(data)
 
   return (
     <div className="home">
@@ -66,9 +74,9 @@ const Home = () => {
 
       <main>
         {isLoading ? (
-          <Skeleton width="84vw" length={5} />
+          <Skeleton width="84vw" length={12} />
         ) : (
-          data?.products?.map((product) => (
+          data?.products?.slice(0, 12).map((product) => (
             <ProductCard
               key={product._id}
               productId={product._id}
