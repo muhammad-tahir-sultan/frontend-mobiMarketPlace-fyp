@@ -65,13 +65,10 @@ export const cartReducer = createSlice({
             // Standard GST/VAT tax rate (12%)
             state.tax = Math.round(subtotal * 0.12);
             
-            // More realistic discount structure - 10% for orders above ₹5000
+            // Automatic discount calculation - 10% for orders above ₹5000
             state.discount = subtotal > 5000 ? Math.round(subtotal * 0.1) : 0;
             
             state.total = state.subtotal + state.shippingCharges + state.tax - state.discount;
-        },
-        discountApplied: (state, action: PayloadAction<number>) => {
-            state.discount = action.payload;
         },
         saveShippingInfo: (state, action: PayloadAction<shippingInfo>) => {
             state.shippingInfo = action.payload;
@@ -80,4 +77,4 @@ export const cartReducer = createSlice({
     }
 });
 
-export const { addToCart, decrementQuantity, removeFromCart, calculatePrice, discountApplied, saveShippingInfo, resetCart } = cartReducer.actions;
+export const { addToCart, decrementQuantity, removeFromCart, calculatePrice, saveShippingInfo, resetCart } = cartReducer.actions;
