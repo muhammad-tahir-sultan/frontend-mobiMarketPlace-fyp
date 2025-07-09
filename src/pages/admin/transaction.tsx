@@ -61,19 +61,20 @@ const Transaction = () => {
   const [rows, setRows] = useState<DataType[]>([]);
 
   useEffect(() => {
-
-    if (data) setRows(data.orders.map((order) => (
-      {
+    if (data) setRows(data.orders.map((order) => {
+      // Calculate total quantity from orderItems array
+      const totalQuantity = order.orderItems.reduce((acc, item) => acc + item.quantity, 0);
+      
+      return {
         user: order.user.name,
         amount: order.total,
         discount: order.discount,
-        quantity: order.quantity,
+        quantity: totalQuantity,
         status: <span className={order.status === "Processing" ? "red" : order.status === "Shipped" ? "green" : "purple"}>{order.status}</span>,
         action: <Link to={`/admin/transaction/${order._id}`}>Manage</Link>
-
-      }
-    )));
-  }, [data])
+      };
+    }));
+  }, [data]);
 
   const Table = TableHOC<DataType>(
     columns,

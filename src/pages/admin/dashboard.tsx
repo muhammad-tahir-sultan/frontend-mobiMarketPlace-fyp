@@ -37,7 +37,7 @@ const Dashboard = () => {
           <section className="widget-container">
             <WidgetItem
               percent={stats.percentChange?.revenue}
-              value={stats.count?.revenue}
+              value={stats.count?.revenue.toFixed(2)}
               heading="Revenue"
               color="rgb(0, 115, 255)"
             />
